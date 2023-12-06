@@ -1,0 +1,18 @@
+[ ] [2 Cigi];Távol-keleti közmondások könyve (Instant);A mondások növelik - az amúgy nem létezõ - bölcsességed. - Instant +2 önbecsülés!
+0;2;2;0;0;-1
+[ ] [2 Cigi];Egy hátbaveregetés Zsombor báttyádtól (Instant);Zsobor báttyád hátbavereget, mond pár szépszót rólad, lemenõidrõl, felmenõidrõl, amitõl a faszodon is nõ egy kis szõr! - Instant +1 önbecsülés!
+0;2;1;0;0;-1
+[ ] [2 Cigi];Sándor Keserû (Passzív); A sunyiba importált 'varázsital' kitart majd egy ideig. - 3 körig +1 önbecsülés!
+0;2;1;0;2;3
+[ ] [5 Cigi];Zvada krétája (Passzív); Az egyetlen, páratlan kréta, Zvada Anna tanár nõ illatával. Minden Bláthys - tanár vagy tanuló - álma egy ilyen ereklye megszerzése! Minden körben +1 önbecsülés!
+0;5;1;0;2;65000
+[ ] [2 Cigi];JBL (Passzív);A folyosó faszagyereke lehetsz ezzel a kütyüvel, most már mindenki ismerni fogja a Zámbó Jimmy alpári techno-t! - 2 körig +1 önbecsülés!
+0;2;1;0;2;2
+[ ] [1 Cigi];Alu Hangszer (Passzív); Matek órák megzavarásának verhetetlen bajnoka! Mindenkit felbasz ez az eszköz, remélhetõleg fizetnek valamit ha abbahagyod... - 2 kör után +2 cigi!
+0;1;0;2;1;2
+[ ] [2 Cigi];Kis Bence sapkája (Passzív); A nagy simlis sisakja megdobja a karizmádat, hamarabb észreveszik a SWAG feliratot mint a rusnya pofádat! - 3 körig +1 cigi és -1 önbecsülés!
+0;2;-1;1;2;3
+[ ] [1 Önbecsülés, 3 Cigi];A felelet botja (Aktív); Eme bot csapása az árammal is elbánik, lehet az utadban állót is elteszi láb alól, persze gyerek barát módon - Egy ingyen menekülés!
+1;3;0;0;3;-1
+[ ] [2 Önbecsülés, 4 Cigi];Egyestõl felhasználható pluszjegy (Passzív); Nagy kincs ez a - mellesleg legálisan! - szerzett pluszjegy! Zsombor csak neked tartogatta, mivel õ még az 1-est sem érte el... - Ha a statisztikád valamelyike 0 alá csökken, visszajössz az élõk sorába 1 cigivel és 1 önbecsüléssel!
+2;4;0;0;1;-1

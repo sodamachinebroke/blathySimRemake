@@ -1,0 +1,54 @@
+[ ] ;Szégyentelen; - Gratulálok csiragyerek, anyádék büszkék lehetnek rád!
+0;0;-1;1
+[ ] ;Nuku-tin; - Na ez van, ha szenvedélybeteg valaki...
+0;1;-1;0
+[ ] ;A számegyenesen a nulla; - Erre már inkább nem is mondok semmit.
+0;2;-1;0
+[ ] ;R.I.P.; - Túlvilági érzés
+0;3;-1;1
+[ ] ;Egy kicsit több beleéléssel!; - Mert még a végén szégyenbe viszel...
+0;4;-1;1
+[ ] ;Nem alkuképes; - Látom nem megy a matek...
+0;5;-1;1
+[ ] ;Még a gyújtót is?; - Ideje leszokni.
+0;6;-1;1
+[ ] ;Példakép; - Már CJ sem kéri, hogy vedd le a sapkát!
+1;0;-1;1
+[ ] ;Az ellátó; - Vajon betömi az űrt a nagy szívedben?
+1;1;-1;1
+[ ] ;Magnum opus; - Egy legenda születik.
+1;2;-1;1
+[ ] ;És ennyi!; - ...vagy mégse?
+1;3;-1;1
+[ ] ;Duplázzuk meg!; - Dupla rizikó dupla siker!
+1;4;-1;1
+[ ] ;Láncdohányos; - Volt miből etetni a rákot.
+1;5;-1;1
+[ ] ;Egyes számú közellenség; - Maradt még bőr a pofádon!
+1;6;-1;1
+[ ] ;A Bláthy Királya; - ...és gyerekek, így lett meg az érettségim!
+1;7;-1;1
+[ ] ;Első vásárló; - Valamit mostmár elértél az életben!
+2;0;1;1
+[ ] ;Üzletember; - Visszatérő vendég
+2;1;0;1
+[ ] ;Nagyker; - Nagy bevásárlás
+2;2;0;1
+[ ] ;Nem lopott!; - ...de honnan van ennyi mindene?
+2;3;-1;1
+[ ] ;Cigi-J; - A sírodra majd megy a respect fiam, hősként fogunk emlékezni rád!
+3;0;-1;1
+[ ] ;A szelidítő; - huhuháhá uuuááááuuuááá!
+3;1;-1;1
+[ ] ;"A friend in need"; - Puha szív, puha pöcs
+3;2;-1;1
+[ ] ;Árú próba; - Remélem működik!
+4;0;-1;1
+[ ] ;Deus ex Machina; - Még nincs itt az időd.
+4;1;-1;1
+[ ] ;A király visszatér; - ÁTVIRRASZTOTT ÉJSZAKÁK!
+4;2;-1;1
+[ ] ;Megérdemled; - Látod ezért ne húzz ujjat a nálad bölcsebbekkel.
+3;3;-1;1
+[ ] ;Fukász öröksége; - Ezt még maga a nagymester se mondhatta volna szebben!
+3;4;-1;1

@@ -1,0 +1,12 @@
+SnoopyBio:
+@Hobbi: Semmi, feltehetõleg fotoszintézis@@Nehézség: Könnyû, kezdõknek ez a karakter ajánlott!@@Leírás: Snoopy már kiskora óta a jobb jövõt a soron következõ cigiben lelte.@Senki nem tud róla fontosabb információkat, talán nincsenek, talán túl vadak ahhoz, hogy magunkfajta halandók tudhassanak róla.@Fiatal évei alatt megtanult a tömegben elrejtõzni, jelentéktelennek tûnni, hogy egy nap aztán lecsaphasson, mint az árnyék az éjszakában.@Ez az alkalom még 18 év után sem jött el, de talán közelebb van Snoopy ideje mint gondolnánk...@@Statisztikák:@- 3 Cigi@- 3 Önbecsülés@
+300;300
+DrKemenyBio:
+@Hobbi: Kísérleti cigik tekerése minél szennyezettebb környezetben@@Nehézség: Közepes nehézség a kitartóbbaknak!@@Leírás: A Csáki egyetem egyik felfedezettje; 6 évesen tekerte elsõ vicces cigijét, majd 8 évesen megalkotta a közismert Biblia Bagarettát, amellyel találkozhat a használó a Biblia összes szereplõjével, egy szívás után flashben, kettõ után kicsit véglegesebb a Jézussal való beszélgetés.@A Csáki egyetem ösztöndíjasaként kifinomult az ízlése, csak a legínyencebb pálcákat pöffenti napjainkban.@Éles észjárásának köszönhetõen rengetegszer kidumálta már magát szorult helyzetekbõl.@A Bláthyban mai napig folytatja tanulmányait, hogy a legpikánsabb rakétákat adagolhassa többnyire kiskorú vevõinek.@Az elmének nyugalom, a tüdõnek cigi kell. Ezek a szükségletek egymással harmóniában vannak, így mindent megtesz Dr Kémény, hogy elszívhassa a szüneti adagot.@De vajon a "minden" elég lesz a megváltás eléréséhez?@@Statisztikák:@- 1 Cigi@- 4 Önbecsülés@
+1;4
+BigGBio:
+@Hobbi: Munkahely váltása minden második héten, kilencedikesekkel való pacsizás@@Nehézség: Nehéz, tapasztalt játékosoknak egy igazi kihívás!@@Leírás: Big G élete sosem volt könnyû. Már kiskorában otthagyták a szülei a selyemrét legcifrább zugában, fogatlan Gizi nevelte az STD dús tejével.@Pitiáner bizniszekkel kereste kenyerét, majd végül bekerült a Bláthyba, ahol az üzlet végre virágzóvá vált számára.@Big G már régóta a szakmában van, viszont erõforrásai csekélyek, a nélkülözés az élete részévé vált.@Talán most ez megváltozhat...@@Statisztikák:@- 2 Cigi@- 1 Önbecsülés@
+2;1
+Gyuri:
+@Hobbi: [TITKOSÍTOTT]@@Nehézség: ???@@Leírás: G.Y.U.R.I. Egy [TÖRÖLVE] ami [TÖRÖLVE]. Fontos, hogy [TÖRÖLVE]. SOHA NE [TÖRÖLVE]. [TÖRÖLVE]. @@Statisztikák:@- ??? Cigi@- ??? Önbecsülés
+-1;-1

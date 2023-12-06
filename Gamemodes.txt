@@ -1,0 +1,10 @@
+0 Normál
+Ez az alap verzió, minden mennyiség normálisan fogy a leírásaik alapján!
+1 Double Trouble
+Nyíltnap! A suliban nagy a sürgés-forgás, mindenki vagy túlpörög, vagy a fasza ki van.@Valaki túl jószívû, valaki viszont eltesz láb alól mer' szar kedve van.@Minden effekt megkétszerezve!@(Ez nincs feltüntetve az interakciók végén, ám ha 2 cigit kapsz az igazából 4!)
+2 Nikotinfuggo:
+A mai nap valahogy más, már reggel 2 pálcát toltál el a szokásos 1 helyett, és suliba menet is rá kellett gyújtani...@Ez már függõség, de te élsz a szenvedélynek, csak legyen mivel etetni!@Minden interakció végén veszítesz egy cigarettát!
+3 Asuliszegyene:
+Rossz fát tettél a tûzre haver, miattad szopott az egész osztály a múltkori tesin!@Néhányan még köszönni se köszönnek már, a megalázás mindennapi áldozata lettél.@Ilyen körülmények között nehéz az élet, de a cigi így is megnyugtat, csak juss el addig hogy rágyújts, mielõtt elsírod magad!@Minden interakció után fogy az önbecsülésed!
+4 Bizonytalansag:
+Nehezen de eljutottál idáig: eljött az érettségi ideje!@Persze szarsz bele az egészbe, a szomszéd pudvány Géza bácsi is leérettségizett, neked miért ne menne? Telnek a hónapok, buli után buli, és már veszélyesen közel a végítélet.@Egyre több a tanári nyomás, már a cigi sem esik olyan jól és kétséges hogy megéled a holnapot.@Elõször érzed azt, hogy a jövõd bizonytalan...@Minden körben egy opció letiltva!

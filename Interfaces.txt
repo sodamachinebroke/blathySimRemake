@@ -1,0 +1,40 @@
+                   *******   ***         ***      ********   ***     ***  ***    ***
+		   ***   **  ***        *****     ********   ***     ***   ***  ***
+ 		   ***   **  ***      ***   ***      **      ***********     ****
+                   *******   ***      **     **      **      ***********     ****
+                   ***   **  ***      *********      **      ***********     ****
+                   ***   **  *******  **     **      **      ***     ***     ****
+                   *******   *******  **     **      **      ***     ***     ****
+					     | SZIMULÁTOR |
+                                             --------------
+			                     [X] Új Játék 
+                                             [ ] Teljesítmények
+~-------------------
+Q - Együttműködés |
+W - Menekülés     |
+E - Tarhálás      |
+-------------------
+Önbecsülés:       |
+Cigi:             |
+-----------------------------------------------------------------------------------
+                                                                                  |
+-----------------------------------------------------------------------------------~[X] Vissza a főmenübe
+[ ] Kilépés~[X] Normál
+[ ] Double Trouble
+[ ] Nikotinfüggő
+[ ] A Suli Szégyene
+[ ] Bizonytalanság
+Leírás:~[X] Snoopy
+[ ] Dr. Kémény
+[ ] Big G
+[ ] G.Y.U.R.I.~Bőrdzseki. Napszemüveg. Nem láttad még, de valószínűleg a fasza is szőrös.
+Zsombor, a legendás Csáki munkatársa ma kiárusítást tart, megéri az a 2 perc míg ránézel az új portékára.
+- Csumi - kacsint a folyosó árusa, nem nagyon gondolta át ezt a gesztust - mutass rá mire áll a pöcsöd én meg megmondom mennyibe fog fájni!
+Ideje megkukkantani a mai árut!
+(FIGYELEM! Csak egy árut vehetsz meg!)~[ ] Nem veszek semmit bástya
+Leírás:~Mester árammegszakító haragjával telibeverted az embert előtted.
+Kör átugorva!~Szerencséd van pöcsös! A Zsombortól kapott pluszjegy nem volt kamu!
+Maroknyi cigivel és önbecsüléssel, de folytathatod az utad a Bláthy folyosóin...
+(Nyomj egy gombot a folytatáshoz te fasztarisznya)~Teljesítmények Menü
+[ ] Teljesítési szint:~[ ] Teljesítmények visszaállítása
+[X] Vissza a főmenübe~Teljesítmény(ek) megszerezve:

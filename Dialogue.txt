@@ -1,0 +1,336 @@
+Mester
+@En: 
+-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura.@"Lám van élet IQ nélkül" gondolod magadban.@
+@Egy1:
+Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:@- Tiszteletem Mester!@- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Menekülõre fogod a szitut, és felveszed a nyúlcipõt.@- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Men2: 
+Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.@- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeline után egy string?@A kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?@-1 cigaretta@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;0;0
+@Tar1:
+A kínos csend közepette egy eszeveszett ötlet támad a fejedben:@- Mester, van egy szál cigarettája?@- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!@Sarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések...@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Tar2:
+Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.@- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos@Megszeppenve ám, de elfogadod a saját száladat.@Mestertõl cigit kapni, ilyen se lesz többet...@+1 saját cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+Osztályfõnök
+@En:
+Már a folyosó végérõl megérzed a bölcsesség és a kedvesség lágy áramlatát.@Kíváncsivá tesz, megkeresed a forrását és nem mást találsz ott, mint Fekete Istvánt!
+@Egy1:
+Ráköszönsz. Egy nem több mint 1.5 órás beszélgetés után elköszön tõled, majd bemegy a tanáriba.@A beszélgetés jó érzéssel tölt el.@+2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged, s még mielõtt a Japán közmondásokba kezdene, az arra jövõ Rozgova néni el vonja a figyelmét.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Men2:
+Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged.@Elmond pár japán közmondást, mire vége lenne csak annyit veszel észre, hogy a doboz cigid és a Jimmy's gyújtód is eltûnt, és már Fekete is felszívódott.@No cigi, no party@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;2
+@Tar1:
+Megpróbálod letarhálni az osztályfõnököt egy szál cigivel, de helyette ezzel a mondattal kínál meg:@- A hídon akkor megyünk át, amikor odaértünk...@Hát ez nem igazán cigi, de bölcsebb lettél és ez a fontos...Nem?@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Tar2:
+Belekezdessz az Éden Kert kígyójának szövegét is lekörözõ dumádba, amikor egy srác fordul hozzád:@- Hé haver! Ezt elejtetted! - és a kezedbe nyomja kolis perceid gyümölcsét.@Miután jól kinevetett az osztályfõnököd elkullogsz, de mintha könnyebb lenne a zsebed...@A büdös suttyó kölke elvitt egyet az ukrán dohányosból!@- 1 Cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;0;0
+Baló
+@En:
+- EEEEEEEE kutttya, nincs egy szál cigggiiiiiiid? - kérdi egy bõrdzsekis suhanc.@A kollégiumból hozott táskái már hetek óta tanyáznak szemei alatt. 
+@Egy1:
+Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.@- Kösz tesi, gyerünk cigizni!@Te is ezt a mentalitást követed, így haladsz tovább a megviselt folyosókon...@-1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;0;0
+@Egy2:
+Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.@- Kösz tesi, nem felejtem el! - mondja a cigány, és leszalad a lépcsõn.@Nem telik el 10 perc sem, már a harmadik tesó lejmol le, tényleg nem felejtett el a suttyó...@-3 Cigi@+2 Önbecsülés@+1 Hírnév a tesóknál@(Nyomj egy ENTER-t a folytatáshoz!)
+-3;2;0
+@Men1:
+- Gabi, Jézus tegyen sebességbe a végbeleden keresztül, a múltkor még a filtereket is elszívtad - közlöd kedvesen.@A folyosó végérõl még hallod a találgatásokat anyád állásáról...@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;1;0
+@Men2:
+-
+0;0;0
+@Tar1:
+- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.@- Ó hát faszom, itt van adok na - közli Baló, majd elõhúz egy 3 hetes, betonkemény mikrózott bagarettát.@Elfogadod, a cigi az cigi, még ha behorpad a homlokod tõle akkor is...@+1 cigi@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+1;-1;0
+@Tar2:
+- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.@- Ó gecc má' nem tudom kitõl kérjek... - sajnálkozik a becsapott, majd miután meglátta Dömpit, - CSÖMPÓÓ - csatakiáltással elhagyta a helyszínt.@Csendben elmondasz egy imát gondolkozol melyiküknek kell jobban, majd úgy döntesz hogy szarni bele, pang a tüdõd.@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!) 
+0;-1;0
+CJ
+@En:
+Éppen Zvada néninek villogsz az új nyújork dzsenkinsz bézbóz sapkádban, amikor egy erõsen ideges arcú bronz kolosszus áll meg elõtted.@- Mi az ott a fején, mókuska? - kérdi a vasember, majd úgy dönt, kipróbálja mennyit bír a hasizmod.@2 másodperccel késõbb rájössz, hogy nem túl sokat.
+@Egy1:
+Miután helyre raktad a bordáid nyelsz egyet és leveszed a sapkád, majd megalázva de a túlélés érdekében kinyögsz egy bocsánatkérést.@- Na menjen tovább! - Ennyivel megúsztad.@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+A legjobbnak láttad, ha felveszed a nyúlcipõt.@Az elsõ 2 métert még magabiztosan teszed meg, de miután hirtelen a bronz test melletted jelenik meg, elbizonytalanodsz, és ezt CJ ki is használta.@A mentõ már nem szirénázva vitt el.@No élet, no party.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;1
+@Men2:
+A legjobbnak láttad, ha felveszed a nyúlcipõt.@Az esélyekkel szemben valahogy sikerül megmenekülni, de 2 szál az ukrán pattintósból így is odaveszett. Kár értük...@-2 cigi@+2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-2;2;0
+@Tar1:
+A bátorságod felszökött, csak úgy mint Szabolcs Géza vérnyomása.@Az 570-edik guggolás után már a megbánás súlya nehezebb volt mint a medicinlabda.@-3 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-3;0
+@Tar2:
+Te most komoly letarháltad CJ-t? Azt a mocskos kurva eget, gyá...@Hát gyerek, most belém ragadt a szó a szarral együtt, hozzád vágok 1000 önbecsülést de szerintem az elsõ ütés után jobban fogsz hasonlítani egy domborzati térképre mint egy emberi lényre.@Van faszod, csak élni is kéne hogy használhasd...@+1000 önbecsülés@No élet, no party@(Nyomj egy ENTER-t a folytatáshoz!)
+0;1000;1
+Hajdú Andi
+@En:
+Remeg a folyosó, ropog a lambéria, és Godzilla hangsúlyával hallasz meg egy kiáltást:@- MOGYORÓFAVIRÁG, holnap van óránk? Nagyon jó, írunk a Szent szövetségbõl!- és lóbálja tenyerében lévõ felvilágosodás korabeli TZ-t.
+@Egy1:
+- Rendben van, akkor megtanulom az 1. Világháborút egy dokumentumfilmbõl, mert maga olyan sügér, hogy azt se tudja mi a különbség a tengely- és a központi hatalmak között.@Bályvigyor kerül fel az ork-törpe arcára:@- Én szeretlek téged <3@Nah ha ez nem rombolja le az ember napját, akkor semmi.@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Érzed, hogy ebbõl Daewoo borogatás lesz ha tovább folytatod, szóval inkább sarkon fordulsz:@- A jó Isten holdkóros, cafrangos faszát húzgálja beléd!@- Takarodj a szemem elõl!@Ez a beszéd, Fukász büszke lenne rád!@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;1;0
+@Men2:
+Érzed, hogy ebbõl Daewoo borogatás lesz ha tovább folytatod, szóval inkább sarkon fordulsz:@- A jó isten holdkóros, cafrangos faszát húzgálja beléd!@- Deus vult! - és már repül feléd a töri atlasz.@Fejen ért az ütés, s a megrázó élmény visszavitt a keresztes háborúkba egész testtel.@Mikor felébredsz, már rég kizsebeltek a purgyék, lehet cigit is nyúltak le. Megérdemli, aki ekkora balfasz.@-1 önbecsülés@-2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-2;-1;0
+@Tar1:
+- Tudja, errõl már most tudnék felelni, nincs kedve egy szál Csáki Cigi mellett megdumálni? Csak 40 Forint, nálam van is 5.@Attól még, hogy egy inkompetens barom vagy, és csak egy kettest sírtál ki, Csáki üzletét fellendítetted, ezért megérdemeltél egy baráti szálat.@+1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+1;0;0
+@Tar2:
+- Tudja, errõl már most tudnék felelni, nincs ke-@- Akkor halljam! Egyel kevesebb dolgozatot kell akkor javítanom! - szól a szárazföldi bálna. Õ már tudja azt, amit te nem akarsz beismerni.@Na baszdmeg!@Te meg a nagy szád, szép volt pöcsös...@10 perc nyögvenyelés és izzadás után elenged egy szánalom kettessel. Csak most eszmélsz rá, hogy a fél emelet itt mozizott a tököléseden, lesz mit hallgatni az udvarfelé menet...@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+Monti
+@En:
+A dzsungel zaja üti meg a füled, mikor eszedbe jut, hogy a felmentésed otthon hagytad. Lesz nemulass...
+@Egy1:
+Gyorsan kell kapcsolni, még mázli, hogy a szünetben megfenyegettél egy kicsit, és uzsonnás dobozában van egy banán:@- Uu-áá – próbálsz kommunikálni vele.@- Uhuhuhuh ááá - mondja, miután kiveszi autentikus sípját arcából, és elveszi a déli gyömölcsöt.@Ez kemény volt.@-1 banán@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Egy2:
+Ide gyors reflexek kellenek, te meg csak a következõ cigire tudsz gondolni!@Mire eszedbe jutna a kilencedikestõl lopott déli gyümölcs elkap a 4 lábon járó susogósdzseki, és a szart is kirázza belõled.@Hát még ha csak azt rázta volna ki! 2 szofi is meglógott a cigimúzeumodból, és mire eszméletedhez tértél már valószínûleg mind a kettõt elpöffentették.@-2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-2;0;0
+@Men1:
+Közeledik, gyûlölettel telik meg a levegõ. Cézár hülye haverja nem volt ilyen agresszív a Majmok bolygólyában! Nincs mese, futás!@Kézilabdákkal támadó ellenfeled elõl még idõben menekültél el a tesi udvar elõtti kis ház mögé, ahol már 2 másik sorstársad keresett menedéket King Kong elõl.@A nagyobbik bicskáját már a fõutcai vadászboltban is elvették volna, látszik hogy nem is kolbászt szokott vele szeletelni.@Nincs akkora faszod mint szõr a talpadon, így önkéntesen szolgáltatsz fejenként egy-egy tapétásat.@-2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-2;0;0
+@Men2:
+Közeledik, gyûlölettel telik meg a levegõ. Cézár hülye haverja nem volt ilyen agresszív a Majmok bolygólyában! Nincs mese, futás!@Kézilabdákkal támadó ellenfeled elõl úgy tûnik nincs menekvés, labdáinak keménysége felér az acéllal, valamint úgy repülnek, mint a bumeráng.@Bárcsak több idõ lenne errõl gondolkodni, de valami roppan...@Legalább csak egy szál cigi ugrott ki szabadságért a zsebedbõl.@-1 cigi@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;-1;0
+@Tar1:
+Nagyon remélem hogy ezt te sem gondoltad komolyan tesó.@Már mindegy, nekifutásból ugrik rá a mellkasodra:@- A KOPONYA ALAPI TÖRÉS NEM MENTSÉG A TESTNEVELÉS ALÓL! - üvölti, majd szétnyitja a mellkasod.@Máskor gondold meg mit választasz te homár lelkû...@No élet, no party@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;1
+@Tar2:
+-
+0;0;0
+Zozó
+@En:
+Hirtelen érdekes illat csap meg, körülbelül ilyen szaga lehetett a 80-as évek hippi koncertjein.@Egy alak emelkedik ki a mámorból:@- Jóó nappott kivvánok - örvend Orosz Zoltán, közismertebb nevén Zozó bácsi, a gombásgulyás királya.
+@Egy1:
+- Viszont kívánom, a WagonR-rel mi újság? - kérded meg illedelmesen, és hosszú beszélgetés kezdõdik a világ talán legunalmasabb emberével.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Tegnap jutottál ki az elvonóról, és ez bizony kisértés a javából, itt az idõ lelépni.@- Ugye, ugye - fújja ki a füstöt a magyar Walter White.@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Men2:
+-
+0;0;0
+@Tar1:
+Itt az alkalom..@- Z, nem hajtunk egy jó szál cigit? - kérded.@Válasznak egy széles mosolyt kapsz, és máris beindul egy Bob Marley playlist a fejedben.@Egy szál cigit megér, hogy kimorzsoljuk 420-ra.@-1 cigi@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;1;0
+@Tar2:
+Itt az alkalom..@- Z, nem hajtunk egy jó szál cigit? - kérded.@Válasznak egy széles mosolyt kapsz, és máris beindul egy Bob Marley playlist a fejedben.@Nem is sejteted, hogy ez az utolsó rakéta ami elindul a szádban; sok szart szívtál már, de az öreg vicces pálcája a másvilágra varázsolt...@No élet no party@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;1
+Kurucz
+@En:
+A szélben pörgõ kulcscsomó hangja lepi be a folyosót, rossz ómen.@Reggel kellett volna az a bizonyos váltó fehér zokni…@- Szevasz fiam! - mondja határozottan a kulcsbuzogány birtokosa, nem csoda, hogy a szar is beléd fagy.
+@Egy1:
+Mentenéd magad, nehogy észrevegye a hiányosságod.@- J-jó n-napot Tanár úr! Múlt óra elég kemény volt, akkor ma kosarazunk? - és keresed a szemkontaktust, látni kell mikor néz le, akkor kell elugrani.@Kulcscsomó a fegyvere és álladnál tesz nagy ívet amikor hirtelen felcsavarodik az öklére, majd lágy mozdulattal eme testrészét hasfaladba helyezi.@- Igen, de kérd meg a Jézuskát, hogy hozzon neked egy fehér zoknit - mondja Buddha nyugalommal.@Ezt olcsón megúsztad bástya.@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Jegyezd meg hülye gyerek, fehér zokni! Na de izgiri, irány a tanári iránya, oda nem követ.@A sprintfutás közepette még hátra nézel, és egy mondat csapja meg hallószerved:@- Na ugye, hogy megérte a heti 5 tesi óra! - mondja büszkén.@+2 önbecsülés@A Bláthy rekorder sprintet a folyosó suhancai is figyelték, ám más okból; nyitvahagyott Zámbó Jimmy-s cigitartódból kifordult egy padbantekert.@-1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;2;0
+@Men2:
+Jegyezd meg hülye gyerek, fehér zokni! Na de izgiri, irány a tanári iránya, oda nem követ.@A sprintfutás közepette még hátra nézel, és egy mondat csapja meg hallószerved:@- Na ugye, hogy megérte a heti 5 tesi óra! - mondja büszkén.@+2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;2;0
+@Tar1:
+- Jó nagyot Tantóbá’! Hallja, olyat kosaraztam, egy szál cigi mellett elmesélném. Csak egy a gáz, nincs nálam.@Ennyi kellett a 8000-es szériájú terminátornak, szeme felcsillant, majd vörösrõl elhalványult.@- Na mesélj csak! - mondta szinte izgalomban - Ja várj, leszarom!@Jutalmad egy jó kis legyintés, melytõl felszabadultak a boxoló reflexeid.@Komolyan vártál ettõl az opciótól valamit?@-1 önbecsülés@+1 Hülye vagy, Levente!@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Tar2:
+-
+0;0;0
+Lakaczki:
+@En:
+- Ló napot kivanok! - szól hozzád egy parizer mellû, szemüveges fószer hippit megszégyenítõ hangulattal.@- Tanult maga a infolmatikála a binális számlendszel dolgozatla? - Na baszdmeg.
+@Egy1:
+- Persze "tanál úl"!- majd 30 percig beszélsz a lovak és a számok binárisan együtt töltött romanikus idõtöltéseirõl.@Full hülyeség, de wikipédiáról rizsál órán az öreg, fingja sincs az egészrõl.@A beszélgetés végén elereszt egy kettessel, jó poén volt legalább.@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Te jó Atya, mi a rák eszi a szájját ennek?! Futás gyorsan, még mázli, hogy a parizer nem mozgékony állat.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Men2:
+Menekülés bukása: Szerintem az itt ne legyen, nincs tekintélye úgyse :D - Az író@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Tar1:
+- Na de még szünet van, nem jön ki cigizni Tanál úl? Csak mert én kifogytam - mondod reménykedve.@- Jól van, menjen!- legyint egyet, és utadra enged.@Lengõszofit nem adott, de azért megpróbáltad.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Tar2:
+-
+0;0;0
+Müllerné
+@En:
+- OTT PUSZTULSZ MEG AHOL AKARSZ! - viharzik ki a matekterembõl egy érdekes hölgyemény, a macskás néni lenne?@- Maga! - mutat rád - A trigonometria félévzáró pirosjegyet megírta?
+@Egy1:
+- Persze Tanár nõ - próbálkozol - megkaptam megérdemelt 1-esemet.@- Ez biztos? Attól még egy piros 1-es nem árt, igaza van - mondja eme fõemlõs.@Megindulsz a hölgy felé de Gyuri kollégád lefog, majd  bársonyos hangon így szól:@- Nem éri meeeeeg...@Durcásan kiballagsz a folyosóra, majd mikor a kicsinyeidet megszámolnád a zsebedben észreveszed, hogy egy tekert Gyurihoz emigrált, de õ már sehol sincs...@-1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;0;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Ennyi kell neked, futás $ytt3$3m! Még egy mondat hallatszik a távolból:@- Akkor menj a Jóistenhez!@Viszont Te inkább a retyóra sietsz.@Mikor elül a balhé szaga, akkor kimerészkedsz, és látod, hogy az öreglány leejtett valamit amikor feléd mutogatott.@Áldja a Jó Isten a híg agyát.@+1 Cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+1;0;0
+@Men2:
+Ennyi kell neked, futás $ytt3$3m! Még egy mondat hallatszik a távolból:@- Akkor menj a Jóistenhez!@- Arra megyek riba--@A folyosón maga a Jóisten, Velenyák János áll@Heves bocsánatkérések és meghajlások következnek, majd 5 miatyánk után úgy dönt az Úr hogy elenged egy intõvel.@Legalább a cigid megvan...@-5 Önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-5;0
+@Tar1:
+- Jaaaaj tantó néni, nem beszélhetnénk meg ezt késõbb? Képzelje, Círmi lefialt! – mentesz egy jót.@- KISCICÁK *----* - sóvárogja denevér frekvencián.@- Bizony, nagyon cukik, adna egy szál cigit? – próbálkozol.@- Mi?! Nem – válaszolja flegmán.@- Akkor mindegy, csõ te$a!@Megilletõdöttségében nem vette észre, hogy menet közben kilootoltad, jó nap ez a mai!@+1 Cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+1;0;0
+@Tar2:
+-
+0;0;0
+Bagány:
+@En:
+- MAXIMÁÁÁÁLIS! - köszön rád egy smink nélküli KISS tag. Ja nem, ez Bagány Máté, a világ legmenõbb tanára, korábbi Bláthys fenegyerek.
+@Egy1:
+- Tiszteletem fõnök - majd kezet fogsz Szandokánnal - képzelje…@Majd hosszú beszélgetés kezdõdik a elektro hidro dinamikos graviméterrõl.@+1 önbecsölés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;1;0
+@Egy2:
+-
+0;0;0
+@Men1:
+- Jézus Isten! - lányos zavarodban felhúzod nyúlcipõt, és útnak eredsz. Komolyan elmenekültél Bagány elõl te puhapöcs?@-2 önbecsölés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+@Men2:
+-
+0;0;0
+@Tar1:
+- Tiszteletem fõnök - majd kezet fogsz Szandokánnal - nem tudna kend megszánni egy szál bagarettával?@- Dehogy nem fiatalember - majd a kezedbe nyom egy szál prémium bagarettát.@+1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+1;0;0
+@Tar2:
+- Tiszteletem fõnök - majd kezet fogsz Szandokánnal - nem tudna kend megszánni egy szál bagarettával?@- Dehogy nem fiatalember - majd a kezedbe nyom egy szál prémium bagarettát.@+1 cigi@HOPPÁ! Ez egy barna szofi, ez Csákinál 2 szál cigi!@+2 cigi.@(Nyomj egy ENTER-t a folytatáshoz!)
+2;0;0
+Rendes Matyi:
+@En:
+- Szevasz Báttya! - int neked egy nem nap barnította ember - Nem tudnál passzolni egy számológépet bartátom?
+@Egy1:
+- Csákó-bréko, nesze tesó - és lendületbõl hozzá vágod.@- Ha így állunk egy szál cigit is passzolnál mellé? - kontrázik a fiatal ember.@- Legyen báttya - szánod meg a ciBBont.@-1 cigi@+2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+- Meg az anyádnak a dugattyús picsáját - és Nyestét megszégyenítõ váltófutás iramba kapcsolsz. Megõrizted becsületed, de a nagy iramban kanabiszos cigaretta tárcád kinyílt...@-1 cigi@+1 önbecsölés@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;1;0
+@Men2:
+-
+0;0;0
+@Tar1:
+- Csákó-brékó, üzlet? - teszed fel a santa kérdést - Egy számológép egy cigiért.@- Egye fene - és kezedbe nyomja - nesze...@+1 cigi@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+1;1;0
+@Tar2:
+- Csákó-brékó, üzlet? - teszed fel a santa kérdést - Egy számológép egy cigiért.@- Lapos tetyû ficeregjen a gatyádban! - majd elviharzik a folyosón - HÉJ DZSÍ, SZÁMOLÓGÉP?! - hallod egyre halkabban a messzi távolból…@Ennyire sem méltatnak...@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+Stark
+@En:
+Békésen kártyázó fiatalokba botlasz a folyosó padlóján, ez bizony póker. Az aluban töltött nyári gyakorlatod alatt tanultál egy-két trükköt amivel Peti bá'val megkopasztottátok a helyi cigányokat, ideje bevetni õket!@Valami viszont nem stimmel... Baszki! Ez Stark irodája! Na mi legyen zsugabubus?
+@Egy1:
+"Bánja faszom" ütõs érvvel beszállsz a partyba.@Telik-múlik az idõ, nullázódnak az emberek. Ketten vagytok a körben, a tét 6 szál cigi, elõtted pedig egy kolis tüdõ pang a gyõzelemre.@Felfordítod lapjaid, kezedben 5 ásszal megnyered a kört, de hirtelen egy hang szólal meg:@- NYELJE LE A CIGARETTÁT! - kiált rád törppapa.@- Apád nyeljen nyelesvirslit húsvétkor mikor hímes tojást szarsz a fos pálinkától, te majom! - és felmarkolsz amit tudsz, aztán usgyi…@Több mint a semmi...@+2 cigi@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+2;-1;0
+@Egy2:
+"Bánja faszom" ütõs érvvel beszállsz a partyba.@Telik-múlik az idõ, nullázódnak az emberek. Ketten vagytok a körben, a tét 6 szál cigi, elõtted pedig egy kolis tüdõ pang a gyõzelemre.@Felfordítod lapjaid, kezedben 5 ásszal megnyered a kört, de változik a helyzet, a kolis 6 ásszal tarol, ez cumi haver.@-3 cigi@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-3;-1;0
+@Men1:
+- Ennek nem lesz jó vége - érkezik a bölcs gondolat.@Kapucnid felcsapod, és zsebre vágod a kezed.@Igazad is lett, megjelenik törppapa, és 120 centi szigorával elveri a nokedliket.@- FIATALEMBER! - üvölt utánad, de már késõ, futsz mint etióp az ingyen konyhához.@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Men2:
+- Ennek nem lesz jó vége - érkezik a bölcs gondolat.@Kapucnid felcsapod, és zsebre vágod a kezed, de túl késõ!@Ott álltok egymással szemben mint Dávid és Góliát, egyikõtök a félelemtõl, másik a gumibogyószörpjétõl birtokol üveges tekintetet.@- Maga ebbe a társoságba tartozik? - kérdi a kolosszus.@- Neem dehogy i-@- Õ adta a kártyát meg a cigiket is! - kurjantják az ismeretlen árulók.@A tömeg szava többet ér mint a te másnapos lehelleted, Csigabá még a gyújtódat is elkobozta...@No cigi, no party@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;2
+@Tar1:
+Egy kopasz emberkezdemény jelenik meg a fiúk körül, de te gyorsan kapcsolsz:@- MI VAGYUNK AZ ICIKÉK, MI VAGYUNK A PICIKÉK - üvöltöd - A geci verje ki a szemed törppapa! - majd elrohansz.@A folyosón kicsit késõbb találkozol a fiúkkal akik kártyáztak, és az egyik megszólít:@- Hé Pöcsös, kösz az elõbbit - majd valami landol a farzsebedben egy homoerotikus érintés kiséretében.@+1 cigi@+1 önbecsülés@+3 homoerotika szint@(Nyomj egy ENTER-t a folytatáshoz!)
+1;1;0
+@Tar2:
+-
+0;0;0
+Nyeste
+@En:
+Irdatlan cefreszag csap homlokon, akár egy szívlapát, mint amikor a Sasban cigányokkal elfajul a beszélgetés. Kulcs csomó, galléros póló betûrve és melegítõ nadrág, na és az a szag... Ezzel lovat lehet baszni...@- Jó napot Tanár úr - köszönsz rá Nyeste Sanyibácsira.@- JaJoj...@Na baszdmeg, már ez se szomjas, mondjuk már reggel fél 9, ilyenkor buzi aki nem részeg mi?@- Jajo... Szevasz! - biccent vissza.@Oldalra tekintve látod, hogy a portás is megjelenik egy flakon behûtütt szilva kifõttel.
+@Egy1:
+Hátulra nyúlsz, táskád oldalából egy méretesebb laposüveget húzol elõ. Angol órán nem fogyott el belõle a bor.@Van még benne egy kevés... mennyi, vagy 5 deci?@- Tanár úr, - szólítod meg Zacher jövõbeli paciensét - beszálhatok?@Pálinka, bor, mi kell még? Jót nevetsz a két, akkorra már sakál disznón.@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;1;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Ez a merõ alkohol szag... szombat óta nem iszol, igaz még csak hétfõ van, de elgondolkodsz. Lófaszt, talán holnap, és odébb csúszol.@Ekkor szembe jön veled egy igen rossz arcú, 40 kilós cigánygyerek, és levállal.@- Jáj tesó bocsi, nem akartam - szól hozzád.@- Na azért kisköcsög! - mutatod ki dominanciád.@25 méterrel késõbb veszed észre, hogy a nigger kilootolt...@-2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+-2;0;0
+@Men2:
+-
+0;0;0
+@Tar1:
+Hátulra nyúlsz, táskád oldalából egy méteresebb laposüveget húzol elõ. Angol órán nem fogyott el belõle a bor. Van még benne egy kevés, vagy 5 deci.@- Tanár úr, - szólítod meg - benne lenne egy cserében?@- Húzz el hülyegyerek, mert kidoblak a súlylökõ csapatból! - rivall rád.@Már 4 hete kidobott, mindegy...@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Tar2:
+Hátulra nyúlsz, táskád oldalából egy méteresebb laposüveget húzol elõ. Angol órán nem fogyott el belõle a bor. Van még benne egy kevés, vagy 5 deci.@- Tanár úr, - szólítod meg - benne lenne egy cserében?@- Húzz el hülyegyerek, mert kidoblak a súlylökõ csapatból! - rivall rád.@Már 4 hete kidobott, mindegy...@Már éppen lelépni készültél, mikor elkapja a válladat a portás:@- Fiam, ennyi megfelel? - és feléd nyújt 2 szál cigit.@+2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+2;0;0
+Budi esemény
+@En:
+Duzzadó hólyagokkal még baszni se jó, nem hogy bagózni. Ideje benézni az egyik Bláthy budiba feloltalmazásért!@Amint belépsz a sugárszennyezett sloziba, a fülkék felé veszed az irányt; a kérdéses ürítést végzõ kopasz úrt nem akartad megzavarni a piszoár feletti tevékenységében.@A 4 fal között elõveszed a pecert, mikor egy vaskos hang megszólít:@- He bratyó, nincs véletlenül egy kis cigid? Eskü visszaadom! - állítja az anoním tarháló.
+@Egy1:
+Megszánod az ismeretlen sorstársad, és átcsúsztatsz az elválasztó fal alatt egy ugyanezen a helyen, de más idõpontban gyúrtat.@- Ó, nagyon király vagy faszikám, már itt skulózok egy órája de csak ketten adtak eddig, na mindegy.@Turhás köpésének hangjából fel tudnád vázolni a teljes kémiai összetételét.@- Ahogy a mondás tartja: három a magyar igazság vagy mi a faszom, na mindegy, csumi! - köszön el a budiszomszéd.@Mikor te is végzel a csapolással, a kopasz úr helyén egy csomag friss ürüléket találsz.@Miért?@-1 cigi@+1 önbecsülés@+1 Mi a fasz most komolyan?@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;1;0
+@Egy2:
+Megszánod a szomszédot, és az elválasztó fal alatt átnyújtasz neki egy kolis pálcát.@Már gyanús volt, mikor felkiáltott a faszi, hogy "Gyere Álmos, elkaptam!" és azzal a lendülettel satuba fogta az amúgy is gyenge karodat.@Egy a korábban látott, 190 centis kopasz srác berúgja az amúgy felé nyíló ajtót, és egy jól célzott rúgással kicsinosítja az amúgy randa pofádat.@Egy órával késõbb arra eszmélsz, hogy még a melegszendvicsre szánt 420 forintodat is elvitték, az önbecsüléseddel együtt.@-100 Önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;0;0
+@Men1:
+Már nincs szükség a budira, mert még a szar is beléd fagyott. Lepörög elõtted minden börtönös WC-s jelenet amit valaha láttál, és tudod, hogy ha most nem menekülsz akkor nem hogy ki, de befele fog valami hatolni a testedbe.@Az ajtót kirúgva szaladsz a kijárat felé, mikor épp egy szatyor szart helyez a korábbi kopasz srác a piszoárba.@A kínos szemezés során rájössz, hogy ez a kép a szemedbe égett az életed végéig.@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
+@Men2:
+-
+0;0;0
+@Tar1:
+Nem hiába voltál drámából 2-es 5.ben, beveted színészi képességeidet egy cigaretta kicsikarására, mit veszíthetsz?@- Bocs tazó, pont kifogytam, esetleg nincs neked egy töltet? - nyöszörgöd reménykedve.@- Na baszdmeg én nekem is egy nyomorultat kell lelejmolnom, na várjá'... - mondja, majd WC papír tépkedések keretében átnyújt egy olyan rakétát, amelynek párja nem akad ezen a világon.@Büdös, retkes, de cigi, te meg pangsz ezerrel, így elfogadod az improvizált ajándékot.@+1 cigi@+1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+1;1;0
+@Tar2:
+Már készülnél a spanyol szappanoperákat megszégyenítõ elõadással, amikor meglátod, hogy a névtelen úr a letolt nacidból kicsente a Silvester Stalone-s öngyújtód, és 2 szálat is hozzáadott a kollekciójához.@Mire észbe kapsz már csak a futólépéseit hallod.@Szép volt, te balfék...@-2 cigi@-1 önbecsülés(Nyomj egy ENTER-t a folytatáshoz!)
+-2;-1;0
+Palencsár
+@En:
+- Agyoniskolázott bölcsészek! Mindenhol ezek a hülyék a fõnökök, de egy egyszerû tripladiferenciál egyenlettõl szétesnének! - hallod az egyik terembõl a nyugodt de lényegretörõ tanárod.
+@Egy1:
+Belesel, és egy termetes, de annál ritkább hajú embert pillantasz meg.@- Jónapot Tanár úr! - köszönsz átlagosan - Tudja mindenki bölcsésznek születik, de van aki kijárja az óvódát.@A megjegyzés megmosolyogtatta az amúgy komor urat. Így szól:@- Jó duma, ez tetszik. Pont cigizni indultam, lekísérsz?@Csak késõbb veszed észre, hogy új barátod valójában a te cigidre pályázik, már mindegy, jól eldumáltok, adsz neki.@-1 cigi@+2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+-1;2;0
+@Egy2:
+-
+0;0;0
+@Men1:
+Be szeretnél nézni egy ízes mondással, de hirtelen rájössz, hogy egy szar jópofizós dumán múlik hogy mehetsz-e érettségizni vagy sem.@Nem kockáztatsz, kell az a piros montenbájk amit anyádék ígértek a kettesért.@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-1;0
+@Men2:
+-
+0;0;0
+@Tar1:
+Belesel, és egy termetes, de annál ritkább hajú embert pillantasz meg.@- Jónapot Tanár úr! - köszönsz átlagosan - Tudja mindenki bölcsésznek születik, de van aki kijárja az óvódát. Jut eszembe, a szomszéd teremben Zvada Anna és Müllerné tanárnõ pettin-@Ki se mondtad, és kirohant a terembõl. Tudtam én, hogy okos gyerek vagy te.@Lássuk, mit rejt a tanári asztal...@+1 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
+1;0;0
+@Tar2:
+Belesel a fizika Buddhájához, és rögtön megbántad.@A táblán körül-belül 65 megoldatlan feladat volt felvázolva.@Az eszed vág mint a borotva, rögtön rájössz hogy ez neked van felfirkálva.@- Á, pont téged vártalak, emlékszel mikor arról beszéltünk, hogy nem állsz jól fizikából?@Ó bizony emlékszel te suttyó! Besétáltál a sárkány barlangjába, és már nincs kiút, és ez mind csak egy szál cigi reményéért...@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
+0;-2;0
