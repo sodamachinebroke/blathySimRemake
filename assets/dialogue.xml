@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dialogues [
+<!ELEMENT dialogues (convo+)>
+<!ELEMENT convo (talk | statupdt)+>
+<!ATTLIST convo id CDATA #REQUIRED>
+<!ATTLIST convo type (intro | egy | men | tar) #REQUIRED>
+<!ELEMENT talk (#PCDATA)>
+<!ELEMENT statupdt (#PCDATA)>
+<!ATTLIST statupdt value CDATA #IMPLIED>
+<!ATTLIST statupdt type (c | o | d) #REQUIRED>
+]>
+
+
+<dialogues>
+
+    <!-- Szarka id = 1, Szarka conversations start now -->
+
+    <convo id="1" type="intro">
+        <talk>-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura. </talk>
+        <talk>"Lám van élet IQ nélkül" gondolod magadban. </talk>
+    </convo>
+    <convo id="1" type="egy">
+
+        <talk>Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:</talk>
+        <talk>- Tiszteletem Mester! </talk>
+        <talk>- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!</talk>
+        <statupdt type="o" value="-1" >-1 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="1" type="men">
+        <talk>Menekülõre fogod a szitut, és felveszed a nyúlcipõt.</talk>
+        <talk>- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából.</talk>
+    </convo>
+
+    <convo id="1" type="men">
+        <talk>Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.</talk>
+        <talk>- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeln után egy string?</talk>
+        <talk>A kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?</talk>
+        <statupdt type="c" value="-1">-1 cigaretta</statupdt>
+    </convo>
+
+    <convo id="1" type = "tar">
+        <talk>A kínos csend közepette egy eszeveszett ötlet támad a fejedben:</talk>
+        <talk>- Mester, van egy szál cigarettája?</talk>
+        <talk>- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!</talk>
+        <talk>Sarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések...</talk>
+        <statupdt type="o" value="-1">-1 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="1" type="tar">
+        <talk>Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.</talk>
+        <talk>- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos</talk>
+        <talk>Megszeppenve ámde elfogadod a saját száladat.</talk>
+        <talk>Mestertõl cigit kapni, ilyen se lesz többet...</talk>
+        <statupdt type="c" value="1">+1 saját cigi</statupdt>
+    </convo>
+    <!-- Szarka conversations end now -->
+
+    <!-- Fekete id = 2, Fekete conversations start now -->
+    <convo id="2" type="intro">
+        <talk>Már a folyosó végérõl megérzed a bölcsesség és a kedvesség lágy áramlatát.</talk>
+        <talk>Kíváncsivá tesz, megkeresed a forrását és nem mást találsz ott, mint Fekete Istvánt. </talk>
+    </convo>
+
+    <convo id="2" type="egy">
+        <talk>Ráköszönsz. Egy nem több mint 1.5 órás beszélgetés után elköszön tõled, majd bemegy a tanáriba.</talk>
+        <talk>A beszélgetés jó érzéssel tölt el.</talk>
+        <statupdt type="o" value="2">+2 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="2" type="men">
+        <talk>Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged, s még mielõtt a Japán közmondásokba kezdene, az arra jövõ Rozgova néni el vonja a figyelmét.</talk>
+    </convo>
+
+    <convo id="2" type="men">
+        <talk> Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged.</talk>
+        <talk>Elmond pár japán közmondást, mire vége lenne csak annyit veszel észre, hogy a doboz cigid és a Jimmy's gyújtód is eltûnt, és már Fekete is felszívódott.</talk>
+        <statupdt type="d">No cigi, no party</statupdt>
+    </convo>
+
+    <convo id="2" type="tar">
+        <talk>Megpróbálod letarhálni az osztályfõnököt egy szál cigivel, de helyette ezzel a mondattal kínál meg:</talk>
+        <talk>- A hídon akkor megyünk át, amikor odaértünk...</talk>
+        <talk>Hát ez nem igazán cigi, de bölcsebb lettél és ez a fontos...Nem?</talk>
+    </convo>
+
+    <convo id="2" type="tar">
+        <talk>Belekezdesz az Éden Kert kígyójának szövegét is lekörözõ dumádba, amikor egy srác fordul hozzád:</talk>
+        <talk>- Hé haver! Ezt elejtetted! - és a kezedbe nyomja kolis perceid gyümölcsét.</talk>
+        <talk>Miután jól kinevetett az osztályfõnököd elkullogsz, de mintha könnyebb lenne a zsebed...</talk>
+        <talk>A büdös suttyó kölke elvitt egyet az ukrán dohányosból!</talk>
+        <statupdt type="c" value="-1">-1 cigi</statupdt>
+
+    </convo>
+    <!-- Fekete conversations end now -->
+
+    <!-- Baló id = 3, Baló conversations start now -->
+
+    <convo id="3" type="intro">
+        <talk>- EEEEEEEE kutttya, nincs egy szál cigggiiiiiiid? - kérdi egy bõrdzsekis suhanc.</talk>
+        <talk>A kollégiumból hozott táskái már hetek óta tanyáznak szemei alatt.</talk>
+    </convo>
+
+    <convo id="3" type="egy">
+        <talk>Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.</talk>
+        <talk>- Kösz tesi, gyerünk cigizni!</talk>
+        <talk>Te is ezt a mentalitást követed, így haladsz tovább a megviselt folyosókon...</talk>
+        <statupdt type="c" value="-1">-1 cigi</statupdt>
+    </convo>
+
+    <convo id="3" type="egy">
+        <talk>Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.</talk>
+        <talk>- Kösz tesi, nem felejtem el! - mondja a cigány, és leszalad a lépcsõn.</talk>
+        <talk>Nem telik el 10 perc sem, már a harmadik tesó lejmol le, tényleg nem felejtett el a suttyó...</talk>
+        <statupdt type="c" value="-3">-3 Cigi</statupdt>
+        <statupdt type="o" value="2" >+2 önbecsülés</statupdt>
+        <talk>+1 Hírnév a tesóknál</talk>
+    </convo>
+
+    <convo id="3" type="men">
+        <talk>- Gabi, Jézus tegyen sebességbe a végbeleden keresztül, a múltkor még a filtereket is elszívtad - közlöd kedvesen.</talk>
+        <talk>A folyosó végérõl még hallod a találgatásokat anyád állásáról...</talk>
+        <statupdt type="o" value="1">+1 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="3" type="tar">
+        <talk>- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.</talk>
+        <talk>- Ó hát faszom, itt van adok na - közli Baló, majd elõhúz egy 3 hetes, betonkemény mikrózott bagarettát.</talk>
+        <talk>Elfogadod, a cigi az cigi, még ha behorpad a homlokod tõle akkor is...</talk>
+    </convo>
+
+    <convo id="3" type="tar">
+        <talk>- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.</talk>
+        <talk>- Ó gecc má' nem tudom kitõl kérjek... - sajnálkozik a becsapott, majd miután meglátta Dömpit, - CSÖMPÓÓ - csatakiáltással elhagyta a helyszínt.</talk>
+        <talk>Csendben elmondasz egy imát gondolkozol melyiküknek kell jobban, majd úgy döntesz hogy szarni bele, pang a tüdõd.</talk>
+        <statupdt type="o" value="-1">-1 önbecsülés</statupdt>
+    </convo>
+
+    <!-- Baló conversations end now -->
+
+    <!-- CJ id = 4, CJ conversations start now -->
+    <convo id="4" type="intro">
+        <talk>Éppen Zvada néninek villogsz az új nyújork dzsenkinsz bézbóz sapkádban, amikor egy erõsen ideges arcú bronz kolosszus áll meg elõtted.</talk>
+        <talk>- Mi az ott a fején, mókuska? - kérdi a vasember, majd úgy dönt, kipróbálja mennyit bír a hasizmod.</talk>
+        <talk>2 másodperccel késõbb rájössz, hogy nem túl sokat.</talk>
+    </convo>
+    <convo id="4" type="egy">
+        <talk>Miután helyre raktad a bordáid nyelsz egyet és leveszed a sapkád, majd megalázva de a túlélés érdekében kinyögsz egy bocsánatkérést.</talk>
+        <talk>- Na menjen tovább! - Ennyivel megúsztad.</talk>
+        <statupdt type="o" value="-2">-2 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="4" type="men">
+        <talk>A legjobbnak láttad, ha felveszed a nyúlcipõt.</talk>
+        <talk>Az elsõ 2 métert még magabiztosan teszed meg, de miután hirtelen a bronz test melletted jelenik meg, elbizonytalanodsz, és ezt CJ ki is használta.</talk>
+        <talk>A mentõ már nem szirénázva vitt el.</talk>
+        <statupdt type="d">No élet, no party</statupdt>
+    </convo>
+
+    <convo id="4" type="men">
+        <talk>A legjobbnak láttad, ha felveszed a nyúlcipõt.</talk>
+        <talk>Az esélyekkel szemben valahogy sikerül megmenekülni, de 2 szál az ukrán pattintósból így is odaveszett. Kár értük...</talk>
+        <statupdt type="c" value="-2">-2 cigi</statupdt>
+        <statupdt type="o" value="2">+2 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="4" type="tar">
+        <talk>A bátorságod felszökött, csak úgy mint Szabolcs Géza vérnyomása.</talk>
+        <talk>Az 570-edik guggolás után már a megbánás súlya nehezebb volt mint a medicinlabda.</talk>
+        <statupdt type="o" value="-3">-3 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="4" type="tar">
+        <talk>Te most komolyan letarháltad CJ-t? Azt a mocskos kurva eget, gyá...</talk>
+        <talk>Hát gyerek, most belém ragadt a szó a szarral együtt, hozzád vágok 1000 önbecsülést de szerintem az elsõ ütés után jobban fogsz hasonlítani egy domborzati térképre mint egy emberi lényre.</talk>
+        <talk>Van faszod, csak élni is kéne hogy használhasd...</talk>
+        <statupdt type="o" value="1000">+1000 önbecsülés</statupdt>
+        <statupdt type="d">No élet, no party</statupdt>
+    </convo>
+
+    <!-- CJ conversations end now -->
+
+    <!-- Hajdu Andi id = 5, Hajdu Andi conversations start now -->
+
+    <convo id="5" type="intro">
+        <talk>Remeg a folyosó, ropog a lambéria, és Godzilla hangsúlyával hallasz meg egy kiáltást:</talk>
+        <talk>- MOGYORÓFAVIRÁG, holnap van óránk? Nagyon jó, írunk a Szent szövetségbõl!- és lóbálja tenyerében lévõ felvilágosodás korabeli TZ-t.</talk>
+    </convo>
+
+    <convo id="5" type="egy">
+        <talk>- Rendben van, akkor megtanulom az 1. Világháborút egy dokumentumfilmbõl, mert maga olyan sügér, hogy azt se tudja mi a különbség a tengely- és a központi hatalmak között.</talk>
+        <talk>Bályvigyor kerül fel az ork-törpe arcára:</talk>
+        <talk>- Én szeretlek téged &lt;3</talk>
+        <talk>Nah ha ez nem rombolja le az ember napját, akkor semmi.</talk>
+        <statupdt type="o" value="-2">-2 önbecsülés</statupdt>
+    </convo>
+
+    <convo id="5" type="men">
+        <talk></talk>
+    </convo>
+
+    <!-- Hajdu Andi conversations end now -->
+
+</dialogues>

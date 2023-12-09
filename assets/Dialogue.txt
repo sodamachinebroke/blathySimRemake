@@ -19,6 +19,8 @@ A kínos csend közepette egy eszeveszett ötlet támad a fejedben:@- Mester, va
 @Tar2:
 Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.@- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos@Megszeppenve ám, de elfogadod a saját száladat.@Mestertõl cigit kapni, ilyen se lesz többet...@+1 saját cigi@(Nyomj egy ENTER-t a folytatáshoz!)
 0;0;0
+
+
 Osztályfõnök
 @En:
 Már a folyosó végérõl megérzed a bölcsesség és a kedvesség lágy áramlatát.@Kíváncsivá tesz, megkeresed a forrását és nem mást találsz ott, mint Fekete Istvánt!
@@ -40,6 +42,7 @@ Megpróbálod letarhálni az osztályfõnököt egy szál cigivel, de helyette e
 @Tar2:
 Belekezdessz az Éden Kert kígyójának szövegét is lekörözõ dumádba, amikor egy srác fordul hozzád:@- Hé haver! Ezt elejtetted! - és a kezedbe nyomja kolis perceid gyümölcsét.@Miután jól kinevetett az osztályfõnököd elkullogsz, de mintha könnyebb lenne a zsebed...@A büdös suttyó kölke elvitt egyet az ukrán dohányosból!@- 1 Cigi@(Nyomj egy ENTER-t a folytatáshoz!)
 -1;0;0
+
 Baló
 @En:
 - EEEEEEEE kutttya, nincs egy szál cigggiiiiiiid? - kérdi egy bõrdzsekis suhanc.@A kollégiumból hozott táskái már hetek óta tanyáznak szemei alatt. 
@@ -61,6 +64,7 @@ Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõ
 @Tar2:
 - Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.@- Ó gecc má' nem tudom kitõl kérjek... - sajnálkozik a becsapott, majd miután meglátta Dömpit, - CSÖMPÓÓ - csatakiáltással elhagyta a helyszínt.@Csendben elmondasz egy imát gondolkozol melyiküknek kell jobban, majd úgy döntesz hogy szarni bele, pang a tüdõd.@-1 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!) 
 0;-1;0
+
 CJ
 @En:
 Éppen Zvada néninek villogsz az új nyújork dzsenkinsz bézbóz sapkádban, amikor egy erõsen ideges arcú bronz kolosszus áll meg elõtted.@- Mi az ott a fején, mókuska? - kérdi a vasember, majd úgy dönt, kipróbálja mennyit bír a hasizmod.@2 másodperccel késõbb rájössz, hogy nem túl sokat.
@@ -103,6 +107,7 @@ Remeg a folyosó, ropog a lambéria, és Godzilla hangsúlyával hallasz meg egy
 @Tar2:
 - Tudja, errõl már most tudnék felelni, nincs ke-@- Akkor halljam! Egyel kevesebb dolgozatot kell akkor javítanom! - szól a szárazföldi bálna. Õ már tudja azt, amit te nem akarsz beismerni.@Na baszdmeg!@Te meg a nagy szád, szép volt pöcsös...@10 perc nyögvenyelés és izzadás után elenged egy szánalom kettessel. Csak most eszmélsz rá, hogy a fél emelet itt mozizott a tököléseden, lesz mit hallgatni az udvarfelé menet...@-2 önbecsülés@(Nyomj egy ENTER-t a folytatáshoz!)
 0;-2;0
+
 Monti
 @En:
 A dzsungel zaja üti meg a füled, mikor eszedbe jut, hogy a felmentésed otthon hagytad. Lesz nemulass...
@@ -124,6 +129,7 @@ Nagyon remélem hogy ezt te sem gondoltad komolyan tesó.@Már mindegy, nekifut�
 @Tar2:
 -
 0;0;0
+
 Zozó
 @En:
 Hirtelen érdekes illat csap meg, körülbelül ilyen szaga lehetett a 80-as évek hippi koncertjein.@Egy alak emelkedik ki a mámorból:@- Jóó nappott kivvánok - örvend Orosz Zoltán, közismertebb nevén Zozó bácsi, a gombásgulyás királya.
