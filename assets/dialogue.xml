@@ -200,8 +200,13 @@
         <talk>- A jó Isten holdkóros, cafrangos faszát húzgálja beléd!</talk>
         <talk>- Takarodj a szemem elõl!</talk>
         <talk>Ez a beszéd, Fukász büszke lenne rád!</talk>
+        <statupdt type="o" value="1">+1 önbecsülés</statupdt>
     </convo>
 
+    <convo id="5" type="men">
+        <talk></talk>
+        <statupdt type="o"></statupdt>
+    </convo>
     <!-- Hajdu Andi conversations end now -->
 
 </dialogues>

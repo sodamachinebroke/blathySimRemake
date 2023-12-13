@@ -1,0 +1,494 @@
+{
+    "dialogues": {
+        "convo": [
+            {
+                "talk": [
+                    "-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura.",
+                    "\"Lám van élet IQ nélkül\" gondolod magadban."
+                ],
+                "id": "szarka",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:",
+                    "- Tiszteletem Mester!",
+                    "- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!"
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-1",
+                    "text": "-1 önbecsülés"
+                },
+                "id": "szarka",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "Menekülõre fogod a szitut, és felveszed a nyúlcipõt.",
+                    "- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából."
+                ],
+                "id": "szarka",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.",
+                    "- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeln után egy string?",
+                    "A kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?"
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-1",
+                    "text": "-1 cigaretta"
+                },
+                "id": "szarka",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "A kínos csend közepette egy eszeveszett ötlet támad a fejedben:",
+                    "- Mester, van egy szál cigarettája?",
+                    "- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!",
+                    "Sarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések..."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-1",
+                    "text": "-1 önbecsülés"
+                },
+                "id": "szarka",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.",
+                    "- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos",
+                    "Megszeppenve ámde elfogadod a saját száladat.",
+                    "Mestertõl cigit kapni, ilyen se lesz többet..."
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "1",
+                    "text": "+1 saját cigi"
+                },
+                "id": "szarka",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Már a folyosó végérõl megérzed a bölcsesség és a kedvesség lágy áramlatát.",
+                    "Kíváncsivá tesz, megkeresed a forrását és nem mást találsz ott, mint Fekete Istvánt."
+                ],
+                "id": "fekete",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Ráköszönsz. Egy nem több mint 1.5 órás beszélgetés után elköszön tõled, majd bemegy a tanáriba.",
+                    "A beszélgetés jó érzéssel tölt el."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "2",
+                    "text": "+2 önbecsülés"
+                },
+                "id": "fekete",
+                "type": "egy"
+            },
+            {
+                "talk": "Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged, s még mielõtt a Japán közmondásokba kezdene, az arra jövõ Rozgova néni el vonja a figyelmét.",
+                "id": "fekete",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged.",
+                    "Elmond pár japán közmondást, mire vége lenne csak annyit veszel észre, hogy a doboz cigid és a Jimmy's gyújtód is eltûnt, és már Fekete is felszívódott."
+                ],
+                "statupdt": {
+                    "type": "d",
+                    "text": "No cigi, no party"
+                },
+                "id": "fekete",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Megpróbálod letarhálni az osztályfõnököt egy szál cigivel, de helyette ezzel a mondattal kínál meg:",
+                    "- A hídon akkor megyünk át, amikor odaértünk...",
+                    "Hát ez nem igazán cigi, de bölcsebb lettél és ez a fontos...Nem?"
+                ],
+                "id": "fekete",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Belekezdesz az Éden Kert kígyójának szövegét is lekörözõ dumádba, amikor egy srác fordul hozzád:",
+                    "- Hé haver! Ezt elejtetted! - és a kezedbe nyomja kolis perceid gyümölcsét.",
+                    "Miután jól kinevetett az osztályfõnököd elkullogsz, de mintha könnyebb lenne a zsebed...",
+                    "A büdös suttyó kölke elvitt egyet az ukrán dohányosból!"
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-1",
+                    "text": "-1 cigi"
+                },
+                "id": "fekete",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "- EEEEEEEE kutttya, nincs egy szál cigggiiiiiiid? - kérdi egy bõrdzsekis suhanc.",
+                    "A kollégiumból hozott táskái már hetek óta tanyáznak szemei alatt."
+                ],
+                "id": "balo",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.",
+                    "- Kösz tesi, gyerünk cigizni!",
+                    "Te is ezt a mentalitást követed, így haladsz tovább a megviselt folyosókon..."
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-1",
+                    "text": "-1 cigi"
+                },
+                "id": "balo",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "Sietsz a dolgoddal így adsz a szerencsétlennek egy szálat a budiban tekertbõl.",
+                    "- Kösz tesi, nem felejtem el! - mondja a cigány, és leszalad a lépcsõn.",
+                    "Nem telik el 10 perc sem, már a harmadik tesó lejmol le, tényleg nem felejtett el a suttyó...",
+                    "+1 Hírnév a tesóknál"
+                ],
+                "statupdt": [
+                    {
+                        "type": "c",
+                        "value": "-3",
+                        "text": "-3 Cigi"
+                    },
+                    {
+                        "type": "o",
+                        "value": "2",
+                        "text": "+2 önbecsülés"
+                    }
+                ],
+                "id": "balo",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "- Gabi, Jézus tegyen sebességbe a végbeleden keresztül, a múltkor még a filtereket is elszívtad - közlöd kedvesen.",
+                    "A folyosó végérõl még hallod a találgatásokat anyád állásáról..."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "1",
+                    "text": "+1 önbecsülés"
+                },
+                "id": "balo",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.",
+                    "- Ó hát faszom, itt van adok na - közli Baló, majd elõhúz egy 3 hetes, betonkemény mikrózott bagarettát.",
+                    "Elfogadod, a cigi az cigi, még ha behorpad a homlokod tõle akkor is..."
+                ],
+                "id": "balo",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "- Bocs tess nekem is tegnap elfogyott... - mondod egy olyan fejjel, mint amilyen Máriának volt mikor elmondta Józsefnek hogy terhes.",
+                    "- Ó gecc má' nem tudom kitõl kérjek... - sajnálkozik a becsapott, majd miután meglátta Dömpit, - CSÖMPÓÓ - csatakiáltással elhagyta a helyszínt.",
+                    "Csendben elmondasz egy imát gondolkozol melyiküknek kell jobban, majd úgy döntesz hogy szarni bele, pang a tüdõd."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-1",
+                    "text": "-1 önbecsülés"
+                },
+                "id": "balo",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Éppen Zvada néninek villogsz az új nyújork dzsenkinsz bézbóz sapkádban, amikor egy erõsen ideges arcú bronz kolosszus áll meg elõtted.",
+                    "- Mi az ott a fején, mókuska? - kérdi a vasember, majd úgy dönt, kipróbálja mennyit bír a hasizmod.",
+                    "2 másodperccel késõbb rájössz, hogy nem túl sokat."
+                ],
+                "id": "cj",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Miután helyre raktad a bordáid nyelsz egyet és leveszed a sapkád, majd megalázva de a túlélés érdekében kinyögsz egy bocsánatkérést.",
+                    "- Na menjen tovább! - Ennyivel megúsztad."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-2",
+                    "text": "-2 önbecsülés"
+                },
+                "id": "cj",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "A legjobbnak láttad, ha felveszed a nyúlcipõt.",
+                    "Az elsõ 2 métert még magabiztosan teszed meg, de miután hirtelen a bronz test melletted jelenik meg, elbizonytalanodsz, és ezt CJ ki is használta.",
+                    "A mentõ már nem szirénázva vitt el."
+                ],
+                "statupdt": {
+                    "type": "d",
+                    "text": "No élet, no party"
+                },
+                "id": "cj",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "A legjobbnak láttad, ha felveszed a nyúlcipõt.",
+                    "Az esélyekkel szemben valahogy sikerül megmenekülni, de 2 szál az ukrán pattintósból így is odaveszett. Kár értük..."
+                ],
+                "statupdt": [
+                    {
+                        "type": "c",
+                        "value": "-2",
+                        "text": "-2 cigi"
+                    },
+                    {
+                        "type": "o",
+                        "value": "2",
+                        "text": "+2 önbecsülés"
+                    }
+                ],
+                "id": "cj",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "A bátorságod felszökött, csak úgy mint Szabolcs Géza vérnyomása.",
+                    "Az 570-edik guggolás után már a megbánás súlya nehezebb volt mint a medicinlabda."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-3",
+                    "text": "-3 önbecsülés"
+                },
+                "id": "cj",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Te most komolyan letarháltad CJ-t? Azt a mocskos kurva eget, gyá...",
+                    "Hát gyerek, most belém ragadt a szó a szarral együtt, hozzád vágok 1000 önbecsülést de szerintem az elsõ ütés után jobban fogsz hasonlítani egy domborzati térképre mint egy emberi lényre.",
+                    "Van faszod, csak élni is kéne hogy használhasd..."
+                ],
+                "statupdt": [
+                    {
+                        "type": "o",
+                        "value": "1000",
+                        "text": "+1000 önbecsülés"
+                    },
+                    {
+                        "type": "d",
+                        "text": "No élet, no party"
+                    }
+                ],
+                "id": "cj",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Remeg a folyosó, ropog a lambéria, és Godzilla hangsúlyával hallasz meg egy kiáltást:",
+                    "- MOGYORÓFAVIRÁG, holnap van óránk? Nagyon jó, írunk a Szent szövetségbõl!- és lóbálja tenyerében lévõ felvilágosodás korabeli TZ-t."
+                ],
+                "id": "handi",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "- Rendben van, akkor megtanulom az 1. Világháborút egy dokumentumfilmbõl, mert maga olyan sügér, hogy azt se tudja mi a különbség a tengely- és a központi hatalmak között.",
+                    "Bályvigyor kerül fel az ork-törpe arcára:",
+                    "- Én szeretlek téged <3",
+                    "Nah ha ez nem rombolja le az ember napját, akkor semmi."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-2",
+                    "text": "-2 önbecsülés"
+                },
+                "id": "handi",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "Érzed, hogy ebbõl Daewoo borogatás lesz ha tovább folytatod, szóval inkább sarkon fordulsz:",
+                    "- A jó Isten holdkóros, cafrangos faszát húzgálja beléd!",
+                    "- Takarodj a szemem elõl!",
+                    "Ez a beszéd, Fukász büszke lenne rád!"
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "1",
+                    "text": "+1 önbecsülés"
+                },
+                "id": "handi",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Érzed, hogy ebbõl Daewoo borogatás lesz ha tovább folytatod, szóval inkább sarkon fordulsz:",
+                    "- A jó isten holdkóros, cafrangos faszát húzgálja beléd!",
+                    "- Deus vult! - és már repül feléd a töri atlasz.",
+                    "Fejen ért az ütés, s a megrázó élmény visszavitt a keresztes háborúkba egész testtel.",
+                    "Mikor felébredsz, már rég kizsebeltek a purgyék, lehet cigit is nyúltak le. Megérdemli, aki ekkora balfasz."
+                ],
+                "statupdt": [
+                    {
+                        "type": "c",
+                        "value": "-2",
+                        "text": "-2 cigi"
+                    },
+                    {
+                        "type": "o",
+                        "value": "-1",
+                        "text": "-1 önbecsülés"
+                    }
+                ],
+                "id": "handi",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "- Tudja, errõl már most tudnék felelni, nincs kedve egy szál Csáki Cigi mellett megdumálni? Csak 40 Forint, nálam van is 5.",
+                    "Attól még, hogy egy inkompetens barom vagy, és csak egy kettest sírtál ki, Csáki üzletét fellendítetted, ezért megérdemeltél egy baráti szálat."
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "1",
+                    "text": "+1 cigi"
+                },
+                "id": "handi",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "- Tudja, errõl már most tudnék felelni, nincs ke-",
+                    "- Akkor halljam! Egyel kevesebb dolgozatot kell akkor javítanom! - szól a szárazföldi bálna. Õ már tudja azt, amit te nem akarsz beismerni.",
+                    "Na baszdmeg!",
+                    "Te meg a nagy szád, szép volt pöcsös...",
+                    "10 perc nyögvenyelés és izzadás után elenged egy szánalom kettessel. Csak most eszmélsz rá, hogy a fél emelet itt mozizott a tököléseden, lesz mit hallgatni az udvarfelé menet..."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "-2",
+                    "text": "-2 önbecsülés"
+                },
+                "id": "handi",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "A dzsungel zaja üti meg a füled, mikor eszedbe jut, hogy a felmentésed otthon hagytad. Lesz nemulass..."
+                ],
+                "id": "monti",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Gyorsan kell kapcsolni, még mázli, hogy a szünetben megfenyegettél egy kicsit, és uzsonnás dobozában van egy banán:",
+                    "- Uu-áá – próbálsz kommunikálni vele.",
+                    "- Uhuhuhuh ááá - mondja, miután kiveszi autentikus sípját arcából, és elveszi a déli gyümölcsöt.",
+                    "Ez kemény volt."
+                ],
+                "statupdt": {
+                    "text": "-1 banán"
+                },
+                "id": "monti",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "Ide gyors reflexek kellenek, te meg csak a következõ cigire tudsz gondolni!",
+                    "Mire eszedbe jutna a kilencedikestõl lopott déli gyümölcs elkap a 4 lábon járó susogósdzseki, és a szart is kirázza belõled.",
+                    "Hát még ha csak azt rázta volna ki! 2 szofi is meglógott a cigimúzeumodból, és mire eszméletedhez tértél már valószínûleg mind a kettõt elpöffentették."
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-2",
+                    "text": "-2 cigi"
+                },
+                "id": "monti",
+                "type": "egy"
+            },
+            {
+                "talk": [
+                    "Közeledik, gyûlölettel telik meg a levegõ. Cézár hülye haverja nem volt ilyen agresszív a Majmok bolygólyában! Nincs mese, futás!",
+                    "Kézilabdákkal támadó ellenfeled elõl még idõben menekültél el a tesi udvar elõtti kis ház mögé, ahol már 2 másik sorstársad keresett menedéket King Kong elõl.",
+                    "A nagyobbik bicskáját már a fõutcai vadászboltban is elvették volna, látszik hogy nem is kolbászt szokott vele szeletelni.",
+                    "Nincs akkora faszod mint szõr a talpadon, így önkéntesen szolgáltatsz fejenként egy-egy tapétásat."
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-2",
+                    "text": "-2 cigi"
+                },
+                "id": "monti",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Közeledik, gyûlölettel telik meg a levegõ. Cézár hülye haverja nem volt ilyen agresszív a Majmok bolygólyában! Nincs mese, futás!",
+                    "Kézilabdákkal támadó ellenfeled elõl úgy tûnik nincs menekvés, labdáinak keménysége felér az acéllal, valamint úgy repülnek, mint a bumeráng.",
+                    "Bárcsak több idõ lenne errõl gondolkodni, de valami roppan...",
+                    "Legalább csak egy szál cigi ugrott ki szabadságért a zsebedbõl."
+                ],
+                "statupdt": [
+                    {
+                        "type": "c",
+                        "value": "-1",
+                        "text": "-1 cigi"
+                    },
+                    {
+                        "type": "o",
+                        "value": "-1",
+                        "text": "-1 önbecsülés"
+                    }
+                ],
+                "id": "monti",
+                "type": "men"
+            },
+            {
+                "talk":[
+                    "Nagyon remélem hogy ezt te sem gondoltad komolyan tesó.",
+                    "Már mindegy, nekifutásból ugrik rá a mellkasodra:",
+                    "- A KOPONYA ALAPI TÖRÉS NEM MENTSÉG A TESTNEVELÉS ALÓL! - üvölti, majd szétnyitja a mellkasod.",
+                    "Máskor gondold meg mit választasz te homár lelkû..."
+                ],
+                "statupdt":{
+                    "type":"d",
+                    "text": "No élet, no party"
+                },
+                "id":"monti",
+                "type":"tar"
+            },
+            {
+                "talk":[
+                    "Hirtelen érdekes illat csap meg, körülbelül ilyen szaga lehetett a 80-as évek hippi koncertjein.",
+                    "Egy alak emelkedik ki a mámorból:",
+                    "- Jóó nappott kivvánok - örvend Orosz Zoltán, közismertebb nevén Zozó bácsi, a gombásgulyás királya."
+                ],
+                "id":"orosz",
+                "type":"intro"
+            }
+        ]
+    }
+}

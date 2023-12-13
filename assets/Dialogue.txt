@@ -113,7 +113,7 @@ Monti
 @En:
 A dzsungel zaja üti meg a füled, mikor eszedbe jut, hogy a felmentésed otthon hagytad. Lesz nemulass...
 @Egy1:
-Gyorsan kell kapcsolni, még mázli, hogy a szünetben megfenyegettél egy kicsit, és uzsonnás dobozában van egy banán:@- Uu-áá – próbálsz kommunikálni vele.@- Uhuhuhuh ááá - mondja, miután kiveszi autentikus sípját arcából, és elveszi a déli gyömölcsöt.@Ez kemény volt.@-1 banán@(Nyomj egy ENTER-t a folytatáshoz!)
+Gyorsan kell kapcsolni, még mázli, hogy a szünetben megfenyegettél egy kicsit, és uzsonnás dobozában van egy banán:@- Uu-áá – próbálsz kommunikálni vele.@- Uhuhuhuh ááá - mondja, miután kiveszi autentikus sípját arcából, és elveszi a déli gyümölcsöt.@Ez kemény volt.@-1 banán@(Nyomj egy ENTER-t a folytatáshoz!)
 0;0;0
 @Egy2:
 Ide gyors reflexek kellenek, te meg csak a következõ cigire tudsz gondolni!@Mire eszedbe jutna a kilencedikestõl lopott déli gyümölcs elkap a 4 lábon járó susogósdzseki, és a szart is kirázza belõled.@Hát még ha csak azt rázta volna ki! 2 szofi is meglógott a cigimúzeumodból, és mire eszméletedhez tértél már valószínûleg mind a kettõt elpöffentették.@-2 cigi@(Nyomj egy ENTER-t a folytatáshoz!)
