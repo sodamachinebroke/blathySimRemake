@@ -27,17 +27,39 @@ class GamePlay extends Phaser.Scene {
     };
 
     create() {
+        
 
         //Temporary to track certain variables
-        this.cigiText = this.add.text(20, 50, `Cigi: ${this.stats.cigi}`, {
+        this.cigiText = this.add.text(0, 0, `Cigi: ${this.stats.cigi}`, {
+            font: '24px Arial',
+            color: 'white'
+        });
+        this.cigiText.setOrigin(0,0);
+
+        this.onbText = this.add.text(0, 30, `Önbecsülés: ${this.stats.onb}`, {
             font: '24px Arial',
             color: 'white'
         });
 
-        this.onbText = this.add.text(20, 80, `Önbecsülés: ${this.stats.onb}`, {
-            font: '24px Arial',
-            color: 'white'
-        });
+        this.onbText.setOrigin(0,0);
+
+        //Final-ish stat-tracking container here
+        this.statContainer = this.add.container(10, 10);
+        const statBG = this.add.rectangle(0,0,360, 150, 0x848484,1);
+
+        this.statContainer.add(statBG);
+        this.statContainer.add(this.cigiText);
+        this.statContainer.add(this.onbText);
+
+        
+
+        /*const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
+        buttonTexts.forEach((text, index) =>{
+            const button = this.add.text(
+                200,
+                10 + index 
+                )
+        })*/
 
         this.createTextButton(this, this.game.config.width / 6, this.game.config.height - 100, 'Tarhálsz', () => this.updateCigi(1));
         this.createTextButton(this, 3 * this.game.config.width / 6, this.game.config.height - 100, 'Menekülsz', () => this.updateCigi(-1));
