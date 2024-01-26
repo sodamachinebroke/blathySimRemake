@@ -19,7 +19,7 @@ class GamePlay extends Phaser.Scene {
             onb: 10
         }
 
-        //this.uiLock = false;
+        this.buttonsEnabled = true;
     };
 
     preload() {
@@ -92,13 +92,19 @@ class GamePlay extends Phaser.Scene {
                     });
 
                     button.on("pointerdown", () => {
-                        this.handleActionClick(text);
+                        if (this.buttonsEnabled) {
+                            this.handleActionClick(text);   
+                        }
                     });
                     button.on("pointerover", () => {
-                        selectButtonTween.play();
+                        if (this.buttonsEnabled) {
+                            selectButtonTween.play();   
+                        }
                     });
                     button.on("pointerout", () => {
-                        unselectButtonTween.play();
+                        if (this.buttonsEnabled) {
+                            unselectButtonTween.play();   
+                        }
                     });
 
                     this.buttonContainer.add(button);
@@ -136,6 +142,7 @@ class GamePlay extends Phaser.Scene {
             this.cigiText.setText(`Cigi: ${this.stats.cigi}`);
         }
         if (this.stats.cigi <= 0) {
+            this.buttonsEnabled = false;
             this.cameras.main.fadeOut(2000);
             this.cameras.main.on(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, () => {
                 this.scene.start('death');
