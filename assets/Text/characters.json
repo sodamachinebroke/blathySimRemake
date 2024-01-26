@@ -31,10 +31,15 @@
         {
             "name": "Big G",
             "difficulty": "Nehéz, tapasztalt játékosoknak egy igazi kihívás!",
+            "hobby":"Munkahely váltása minden második héten, kilencedikesekkel való pacsizás",
             "description": [
-                "Hobbi: Munkahely váltása minden második héten, kilencedikesekkel való pacsizás",
-                "Leírás: Big G élete sosem volt könnyû. Már kiskorában otthagyták a szülei a selyemrét legcifrább zugában, fogatlan Gizi nevelte az STD dús tejével.@Pitiáner bizniszekkel kereste kenyerét, majd végül bekerült a Bláthyba, ahol az üzlet végre virágzóvá vált számára.@Big G már régóta a szakmában van, viszont erõforrásai csekélyek, a nélkülözés az élete részévé vált.@Talán most ez megváltozhat...@@Statisztikák:@- 2 Cigi@- 1 Önbecsülés@"
-            ]
+                "Big G élete sosem volt könnyû. Már kiskorában otthagyták a szülei a selyemrét legcifrább zugában, fogatlan Gizi nevelte az STD dús tejével.",
+                "Pitiáner bizniszekkel kereste kenyerét, majd végül bekerült a Bláthyba, ahol az üzlet végre virágzóvá vált számára.",
+                "Big G már régóta a szakmában van, viszont erõforrásai csekélyek, a nélkülözés az élete részévé vált.",
+                "Talán most ez megváltozhat..."
+            ],
+            "cigi":"2",
+            "onb":"1"
         }
     ]
 }
