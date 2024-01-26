@@ -5,8 +5,8 @@ const gamePlay = new GamePlay('gameplay');
 const deathScene = new DeathScene('death');
 
 const game = new Phaser.Game({
-    width: 800,
-    height: 600,
+    width: 1200,
+    height: 900,
     scale: {
         autoCenter: Phaser.Scale.CENTER_BOTH
     },

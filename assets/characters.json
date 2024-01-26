@@ -1,0 +1,40 @@
+{
+    "characters": [
+        {
+            "name": "Snoopy",
+            "difficulty": "Könnyû, kezdõknek ez a karakter ajánlott!",
+            "hobby": "Semmi, feltehetõleg fotoszintézis",
+            "description": [
+                "Snoopy már kiskora óta a jobb jövõt a soron következõ cigiben lelte.",
+                "Senki nem tud róla fontosabb információkat, talán nincsenek, talán túl vadak ahhoz, hogy magunkfajta halandók tudhassanak róla.",
+                "Fiatal évei alatt megtanult a tömegben elrejtõzni, jelentéktelennek tûnni, hogy egy nap aztán lecsaphasson, mint az árnyék az éjszakában.",
+                "Ez az alkalom még 18 év után sem jött el, de talán közelebb van Snoopy ideje mint gondolnánk..."
+            ],
+            "cigi": "3",
+            "onb": "3"
+        },
+        {
+            "name": "DrKémény",
+            "difficulty": "Közepes nehézség a kitartóbbaknak!",
+            "hobby" : "Kísérleti cigik tekerése minél szennyezettebb környezetben",
+            "description": [
+                "A Csáki egyetem egyik felfedezettje; 6 évesen tekerte elsõ vicces cigijét, majd 8 évesen megalkotta a közismert Biblia Bagarettát, amellyel találkozhat a használó a Biblia összes szereplõjével, egy szívás után flashben, kettõ után kicsit véglegesebb a Jézussal való beszélgetés.",
+                "A Csáki egyetem ösztöndíjasaként kifinomult az ízlése, csak a legínyencebb pálcákat pöffenti napjainkban.",
+                "Éles észjárásának köszönhetõen rengetegszer kidumálta már magát szorult helyzetekbõl.",
+                "A Bláthyban mai napig folytatja tanulmányait, hogy a legpikánsabb rakétákat adagolhassa többnyire kiskorú vevõinek.",
+                "Az elmének nyugalom, a tüdõnek cigi kell. Ezek a szükségletek egymással harmóniában vannak, így mindent megtesz Dr Kémény, hogy elszívhassa a szüneti adagot.",
+                "De vajon a \"minden\" elég lesz a megváltás eléréséhez?"
+            ],
+            "cigi": "1",
+            "onb": "4"
+        },
+        {
+            "name": "Big G",
+            "difficulty": "Nehéz, tapasztalt játékosoknak egy igazi kihívás!",
+            "description": [
+                "Hobbi: Munkahely váltása minden második héten, kilencedikesekkel való pacsizás",
+                "Leírás: Big G élete sosem volt könnyû. Már kiskorában otthagyták a szülei a selyemrét legcifrább zugában, fogatlan Gizi nevelte az STD dús tejével.@Pitiáner bizniszekkel kereste kenyerét, majd végül bekerült a Bláthyba, ahol az üzlet végre virágzóvá vált számára.@Big G már régóta a szakmában van, viszont erõforrásai csekélyek, a nélkülözés az élete részévé vált.@Talán most ez megváltozhat...@@Statisztikák:@- 2 Cigi@- 1 Önbecsülés@"
+            ]
+        }
+    ]
+}
