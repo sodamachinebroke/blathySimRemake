@@ -22,11 +22,12 @@ class GamePlay extends Phaser.Scene {
     };
 
     preload() {
-        //Preload assets like pictures and music
+        this.load.image("background", "assets/Pictures/bg_concrete.jpg");
     };
 
     create() {
-
+        this.bg = this.add.image(0, 0, "background");
+        this.bg.setOrigin(0, 0);
         WebFont.load({
             //Need this, because we are using Google Fonts. This makes everything easier
             google: {
@@ -61,29 +62,35 @@ class GamePlay extends Phaser.Scene {
     };
 
     createTextButton(scene, x, y, label, onClick) {
+        this.textBackground = scene.add.rectangle(x, y, 100, 100, 0x848484)
+            .setInteractive({ useHandCursor: true })
+            .setOrigin(0.5);
+
         this.textButton = scene.add.text(x, y, label, {
             font: '24px Arial',
             color: 'white',
+            fill: "#000",
+            strokeThickness: 10
         })
             .setOrigin(0.5)
             .setPadding(20)
             .setInteractive({ useHandCursor: true });
 
+
         //Tween for button hovered over
         const selectButtonTween = this.tweens.add({
-            targets: [this.textButton],
-            alpha: 0.7,
+            targets: [this.textBackground, this.textButton],
             scale: 1.5,
             duration: 200,
+            
             paused: true,
             persist: true,
         });
 
         const unselectButtonTween = this.tweens.add({
-            targets: [this.textButton],
-            alpha: 1,
+            targets: [this.textBackground, this.textButton],
             scale: 1,
-            duration: 300,
+            duration: 200,
             paused: true,
             persist: true,
         })
@@ -96,8 +103,6 @@ class GamePlay extends Phaser.Scene {
             })
             .on('pointerout', () => {
                 unselectButtonTween.play();
-
-                this.textButton.alpha = 1;
             });
 
         return this.textButton;
