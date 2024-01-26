@@ -19,6 +19,7 @@ class GamePlay extends Phaser.Scene {
             onb: 10
         }
 
+        //this.uiLock = false;
     };
 
     preload() {
@@ -53,63 +54,79 @@ class GamePlay extends Phaser.Scene {
                 this.statContainer.add(this.cigiText);
                 this.statContainer.add(this.onbText);
 
-                this.createTextButton(this, this.game.config.width / 6, this.game.config.height - 100, 'Tarhálsz', () => this.updateCigi(1));
-                this.createTextButton(this, 3 * this.game.config.width / 6, this.game.config.height - 100, 'Menekülsz', () => this.updateCigi(-1));
-                this.createTextButton(this, 5 * this.game.config.width / 6, this.game.config.height - 100, 'Együttműködsz', () => this.updateCigi(-1));
+                this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100)
+
+                // Container for the interactable buttons
+                const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
+                buttonTexts.forEach((text, index) => {
+
+                    const button = this.add.text(
+                        index * this.game.config.width / 4,
+                        0,
+                        text,
+                        {
+                            font: '24px Arial',
+                            color: 'white',
+                            fill: "#000",
+                            strokeThickness: 10
+                        }
+                    )
+                    .setInteractive({ useHandCursor: true })
+                    .setOrigin(0.5)
+                    .setPadding(20);
+                    //Tween for button hovered over
+                    const selectButtonTween = this.tweens.add({
+                        targets: button,
+                        scale: 1.5,
+                        duration: 200,
+
+                        paused: true,
+                        persist: true,
+                    });
+                    const unselectButtonTween = this.tweens.add({
+                        targets: button,
+                        scale: 1,
+                        duration: 200,
+                        paused: true,
+                        persist: true,
+                    });
+
+                    button.on("pointerdown", () => {
+                        this.handleActionClick(text);
+                    });
+                    button.on("pointerover", () => {
+                        selectButtonTween.play();
+                    });
+                    button.on("pointerout", () => {
+                        unselectButtonTween.play();
+                    });
+
+                    this.buttonContainer.add(button);
+                });
 
             }
         })
     };
 
-    createTextButton(scene, x, y, label, onClick) {
-        this.textBackground = scene.add.rectangle(x, y, 100, 100, 0x848484)
-            .setInteractive({ useHandCursor: true })
-            .setOrigin(0.5);
-
-        this.textButton = scene.add.text(x, y, label, {
-            font: '24px Arial',
-            color: 'white',
-            fill: "#000",
-            strokeThickness: 10
-        })
-            .setOrigin(0.5)
-            .setPadding(20)
-            .setInteractive({ useHandCursor: true });
-
-
-        //Tween for button hovered over
-        const selectButtonTween = this.tweens.add({
-            targets: [this.textBackground, this.textButton],
-            scale: 1.5,
-            duration: 200,
-            
-            paused: true,
-            persist: true,
-        });
-
-        const unselectButtonTween = this.tweens.add({
-            targets: [this.textBackground, this.textButton],
-            scale: 1,
-            duration: 200,
-            paused: true,
-            persist: true,
-        })
-        this.textButton
-            .on('pointerdown', () => {
-                onClick();
-            })
-            .on('pointerover', () => {
-                selectButtonTween.play();
-            })
-            .on('pointerout', () => {
-                unselectButtonTween.play();
-            });
-
-        return this.textButton;
-    }
-
     update() {
 
+    };
+
+    handleActionClick(text){
+        switch (text) {
+            case 'Tarhálsz':
+                this.updateCigi(1);
+                break;
+            case 'Menekülsz':
+                this.updateCigi(-1);
+                break;
+            case 'Együttműködsz':
+                //this.updateCigi(-1);
+                console.log("együtműdksidz");
+                break;
+            default:
+                break;
+        }
     };
 
     //This might will be final someday
@@ -120,38 +137,9 @@ class GamePlay extends Phaser.Scene {
         }
         if (this.stats.cigi <= 0) {
             this.cameras.main.fadeOut(2000);
-
             this.cameras.main.on(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, () => {
                 this.scene.start('death');
             });
         }
     }
-
-    gameOver() {
-
-        this.add.text(200, 200, `Meghaltál lol`, {
-            font: '48px Arial',
-            color: 'red'
-        });
-        this.restartGame();
-    }
-
-    restartGame() {
-
-        this.restartButton = this.add.text(200, 400, 'Restart Game', {
-            font: '24px Arial',
-            color: 'white'
-        }).setInteractive({ useHandCursor: true });
-
-        const selectButtonTween = this.tweens.add({
-            targets: [this.restartButton],
-            alpha: 0.7,
-            duration: 200,
-            paused: true,
-            persist: true
-        });
-
-
-    }
-
 }
