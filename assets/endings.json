@@ -1,0 +1,45 @@
+{
+    "badEndings":{
+        "ending": [
+            {
+                "number": "1",
+                "talk":[
+                    "Egy normális iskolában a rossz jegyektõl fél a gyerek, itt a haláltól.",
+                    "Neked már nem kell buzikám, na de majd viszek kutyagenyót a sírodra, ilyen szar játékmenet után azt érdemled!",
+                    "GENYÓÓ!"
+                ]
+                
+            },
+            {
+                "number": "2",
+                "talk":[
+                    "Hát tesi, a nikotin nagy úr, valamivel etetni kell a rákokat, de ez benned már nem tud realizálódni.",
+                    "Térded összerogy, kaparod a levegõt, de mindhiába.",
+                    "Amit a Búza téri cigány banya mondott, az be is teljesült; kiette a rák a tüdõd, te meg nem bírtad etetni...",
+                    "GENYÓÓ!"
+                ]
+               
+            },
+            {
+                "number":"3",
+                "talk":[
+                    "Mi az hogy elfogyott az önbecsülésed?@Nagyobb balfasz vagy, mint az író...",
+                    "Látszik, hogy anyádék a pincében neveltek...",
+                    "Attól még örülök neki, hogy befejezted, ilyen puhapöcs nem kell a Bláthyba.",
+                    "GENYÓÓ!"
+                ]
+                
+            },
+            {
+                "number": "4",
+                "talk":[
+                    "Mondák szólnak egy prófétáról.",
+                    "Egy prófétáról, aki történetesen egy alfahím, s teherbe esik tõle bárki akire ránéz.",
+                    "Kurvára látszik, hogy nem te vagy ez a próféta, se cigid, se vér a faszodban, bújj el az író orrába!",
+                    "GENYÓÓ!"
+                ]
+                
+            }
+        ]
+    }
+}
