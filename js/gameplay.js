@@ -4,6 +4,8 @@ class GamePlay extends Phaser.Scene {
 
     constructor(title) {
         super(title);
+
+        this.parsedConvos = null;
     }
 
     init() {
@@ -24,6 +26,7 @@ class GamePlay extends Phaser.Scene {
 
     preload() {
         this.load.image("background", "assets/Pictures/bg_concrete.jpg");
+
     };
 
     create() {
@@ -39,6 +42,11 @@ class GamePlay extends Phaser.Scene {
                     fontFamily: 'DM Mono',
                     fontSize: '20px',
                     color: 'white'
+                }
+                var convoStyle = {
+                    fontFamily: 'DM Mono',
+                    fontSize: '20px',
+                    color: 'black'
                 }
                 this.cigiText = this.add.text(0, 0, `Cigi: ${this.stats.cigi}`, statStyle);
                 this.cigiText.setOrigin(0, 0);
@@ -71,9 +79,9 @@ class GamePlay extends Phaser.Scene {
                             strokeThickness: 10
                         }
                     )
-                    .setInteractive({ useHandCursor: true })
-                    .setOrigin(0.5)
-                    .setPadding(20);
+                        .setInteractive({ useHandCursor: true })
+                        .setOrigin(0.5)
+                        .setPadding(20);
                     //Tween for button hovered over
                     const selectButtonTween = this.tweens.add({
                         targets: button,
@@ -104,6 +112,8 @@ class GamePlay extends Phaser.Scene {
                     this.buttonContainer.add(button);
                 });
 
+                this.fetchAndParseJsonData('assets/TEMPdialogue.json', this.parsedConvos);
+                //this.displayParsedData(this.parsedConvos,convoStyle);
             }
         })
     };
@@ -112,7 +122,43 @@ class GamePlay extends Phaser.Scene {
 
     };
 
-    handleActionClick(text){
+    //This one parses JSON data
+    fetchAndParseJsonData(filepath, outputVar) {
+        fetch(filepath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(parsedData => {
+                outputVar = parsedData;
+
+                this.displayParsedData(this.parsedConvos, {fontFamily: 'DM Mono',
+                fontSize: '20px',
+                color: 'black'})
+            })
+            .catch(error => {
+                console.error('Error fetching or parsing JSON: ', error);
+            });
+    };
+
+    displayParsedData(parsedjson,style) {
+        if (parsedjson) {
+            const introTalksContent = this.getIntroTalksContent();
+            this.add.text(100, 100, introTalksContent, style);
+        }
+        else {
+            console.error('Parsed data unavailable');
+        }
+    }
+
+    getIntroTalksContent() {
+        const introTalks = parsedData.dialogues.convo.filter(talk => talk.type === 'intro');
+        const introTalksContent = introTalks.map(talk => talk.talk.join('\n')).join('\n\n');
+    }
+
+    handleActionClick(text) {
         switch (text) {
             case 'Tarhálsz':
                 this.updateCigi(1);
