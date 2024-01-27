@@ -62,61 +62,65 @@ class GamePlay extends Phaser.Scene {
                 this.statContainer.add(this.cigiText);
                 this.statContainer.add(this.onbText);
 
-                this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100)
-
-                // Container for the interactable buttons
-                const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
-                buttonTexts.forEach((text, index) => {
-
-                    const button = this.add.text(
-                        index * this.game.config.width / 4,
-                        0,
-                        text,
-                        {
-                            font: '24px Arial',
-                            color: 'white',
-                            fill: "#000",
-                            strokeThickness: 10
-                        }
-                    )
-                        .setInteractive({ useHandCursor: true })
-                        .setOrigin(0.5)
-                        .setPadding(20);
-                    //Tween for button hovered over
-                    const selectButtonTween = this.tweens.add({
-                        targets: button,
-                        scale: 1.5,
-                        duration: 200,
-
-                        paused: true,
-                        persist: true,
-                    });
-                    const unselectButtonTween = this.tweens.add({
-                        targets: button,
-                        scale: 1,
-                        duration: 200,
-                        paused: true,
-                        persist: true,
-                    });
-
-                    button.on("pointerdown", () => {
-                        this.handleActionClick(text);
-                    });
-                    button.on("pointerover", () => {
-                        selectButtonTween.play();
-                    });
-                    button.on("pointerout", () => {
-                        unselectButtonTween.play();
-                    });
-
-                    this.buttonContainer.add(button);
-                });
+                this.createUIButtons();
 
                 this.fetchAndParseJsonData('assets/TEMPdialogue.json', this.parsedConvos);
                 //this.displayParsedData(this.parsedConvos,convoStyle);
             }
         })
     };
+
+    createUIButtons() {
+        this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100);
+
+        // Container for the interactable buttons
+        const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
+        buttonTexts.forEach((text, index) => {
+
+            const button = this.add.text(
+                index * this.game.config.width / 4,
+                0,
+                text,
+                {
+                    font: '24px Arial',
+                    color: 'white',
+                    fill: "#000",
+                    strokeThickness: 10
+                }
+            )
+                .setInteractive({ useHandCursor: true })
+                .setOrigin(0.5)
+                .setPadding(20);
+            //Tween for button hovered over
+            const selectButtonTween = this.tweens.add({
+                targets: button,
+                scale: 1.5,
+                duration: 200,
+
+                paused: true,
+                persist: true,
+            });
+            const unselectButtonTween = this.tweens.add({
+                targets: button,
+                scale: 1,
+                duration: 200,
+                paused: true,
+                persist: true,
+            });
+
+            button.on("pointerdown", () => {
+                this.handleActionClick(text);
+            });
+            button.on("pointerover", () => {
+                selectButtonTween.play();
+            });
+            button.on("pointerout", () => {
+                unselectButtonTween.play();
+            });
+
+            this.buttonContainer.add(button);
+        });
+    }
 
     update() {
 
