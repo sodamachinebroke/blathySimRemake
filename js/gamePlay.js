@@ -19,6 +19,7 @@ class GamePlay extends Phaser.Scene {
             onb: 10
         }
 
+        //Death scene disable inputs variable, gets turned to false when cigi or onb is 0
         this.buttonsEnabled = true;
     };
 
