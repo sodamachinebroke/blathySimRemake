@@ -32,6 +32,8 @@ class DeathScene extends Phaser.Scene {
             persist: true
         });
 
-        
+        this.restartButton.on("pointerdown", () => {
+            this.scene.start("mainmenu");
+        });
     }
 }

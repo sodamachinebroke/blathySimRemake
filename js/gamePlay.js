@@ -28,6 +28,7 @@ class GamePlay extends Phaser.Scene {
     };
 
     create() {
+        this.cameras.main.fadeIn(500);
         this.bg = this.add.image(0, 0, "background");
         this.bg.setOrigin(0, 0);
         WebFont.load({
