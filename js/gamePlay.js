@@ -4,6 +4,7 @@ class GamePlay extends Phaser.Scene {
 
     constructor(title) {
         super(title);
+        this.database = {};
     }
 
     init() {
@@ -20,10 +21,16 @@ class GamePlay extends Phaser.Scene {
         }
 
         this.buttonsEnabled = true;
+
+        this.inout = new InOut('io');
     };
 
     preload() {
         this.load.image("background", "assets/Pictures/bg_concrete.jpg");
+        
+        this.load.json('tempdialogue', 'assets/TEMPdialogue.json');
+        this.database.tempDialogue = this.cache.json.get('tempDialogue');
+
     };
 
     create() {
@@ -71,9 +78,9 @@ class GamePlay extends Phaser.Scene {
                             strokeThickness: 10
                         }
                     )
-                    .setInteractive({ useHandCursor: true })
-                    .setOrigin(0.5)
-                    .setPadding(20);
+                        .setInteractive({ useHandCursor: true })
+                        .setOrigin(0.5)
+                        .setPadding(20);
                     //Tween for button hovered over
                     const selectButtonTween = this.tweens.add({
                         targets: button,
@@ -93,32 +100,34 @@ class GamePlay extends Phaser.Scene {
 
                     button.on("pointerdown", () => {
                         if (this.buttonsEnabled) {
-                            this.handleActionClick(text);   
+                            this.handleActionClick(text);
                         }
                     });
                     button.on("pointerover", () => {
                         if (this.buttonsEnabled) {
-                            selectButtonTween.play();   
+                            selectButtonTween.play();
                         }
                     });
                     button.on("pointerout", () => {
                         if (this.buttonsEnabled) {
-                            unselectButtonTween.play();   
+                            unselectButtonTween.play();
                         }
                     });
 
                     this.buttonContainer.add(button);
                 });
+                //Interactable button ends here
 
+                //temporary JSON fetching
+                this.inout.getDataBaseInfo();
             }
         })
     };
-
     update() {
 
     };
 
-    handleActionClick(text){
+    handleActionClick(text) {
         switch (text) {
             case 'Tarhálsz':
                 this.updateCigi(1);
