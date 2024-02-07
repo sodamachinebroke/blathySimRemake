@@ -5,6 +5,9 @@ class GamePlay extends Phaser.Scene {
     constructor(title) {
         super(title);
         this.database = {};
+        this.dialogueContainer = null;
+        this.currentPartner = null;
+        this.action = 'intro';
     }
 
     init() {
@@ -21,19 +24,17 @@ class GamePlay extends Phaser.Scene {
         }
 
         this.buttonsEnabled = true;
-
-        this.inout = new InOut('io');
     };
 
     preload() {
         this.load.image("background", "assets/Pictures/bg_concrete.jpg");
-        
+
         this.load.json('tempdialogue', 'assets/TEMPdialogue.json');
-        this.database.tempDialogue = this.cache.json.get('tempDialogue');
 
     };
 
     create() {
+        this.database = this.cache.json.get('tempdialogue');
         this.bg = this.add.image(0, 0, "background");
         this.bg.setOrigin(0, 0);
         WebFont.load({
@@ -46,6 +47,15 @@ class GamePlay extends Phaser.Scene {
                     fontFamily: 'DM Mono',
                     fontSize: '20px',
                     color: 'white'
+                }
+                var diagStyle = {
+                    fontFamily: 'DM Mono',
+                    fontSize: '20px',
+                    color: 'black',
+                    wordWrap: {
+                        width: 600,
+                        useAdvancedWrap: true
+                    }
                 }
                 this.cigiText = this.add.text(0, 0, `Cigi: ${this.stats.cigi}`, statStyle);
                 this.cigiText.setOrigin(0, 0);
@@ -61,7 +71,8 @@ class GamePlay extends Phaser.Scene {
                 this.statContainer.add(this.cigiText);
                 this.statContainer.add(this.onbText);
 
-                this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100)
+                this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100);
+                this.writeRandomDialogueWithFixedType(this.action, diagStyle);
 
                 // Container for the interactable buttons
                 const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
@@ -116,13 +127,56 @@ class GamePlay extends Phaser.Scene {
 
                     this.buttonContainer.add(button);
                 });
-                //Interactable button ends here
 
-                //temporary JSON fetching
-                this.inout.getDataBaseInfo();
+                
             }
         })
     };
+
+    writeRandomDialogueWithFixedType(type, style) {
+        const dialoguesWithType = this.database.dialogues.convo.filter(dialogue => dialogue.type === type);
+
+        if (dialoguesWithType.length === 0){
+            console.error("Some issue idk");
+            return;
+        }
+        const randomIndex = Phaser.Math.Between(0, dialoguesWithType.length-1);
+        const dialogue = dialoguesWithType[randomIndex];
+
+        if(dialogue){
+            this.createDialogueContainer();
+            this.displayDialogue(dialogue.talk, style);
+            this.currentPartner = dialogue.id;
+            console.log(this.currentPartner);
+        }else{
+            console.error("Dialogue not found");
+        }
+    }
+
+
+    createDialogueContainer() {
+        this.dialogueContainer = this.add.container(50, 200);
+    }
+    displayDialogue(text, style) {
+        if (this.dialogueText) {
+            this.dialogueText.destroy();
+        }
+
+        // Create a new text object to display the dialogue
+        this.dialogueText = this.add.text(0, 0, text, style);
+        this.dialogueContainer.add(this.dialogueText);
+    }
+
+    findDialogue(id, type) {
+        const convo = this.database.dialogues.convo;
+        for (let i = 0; i < convo.length; i++) {
+            if (convo[i].id === id && convo[i].type === type) {
+                return convo[i];
+            }
+        }
+        return null;
+    }
+
     update() {
 
     };
@@ -130,14 +184,13 @@ class GamePlay extends Phaser.Scene {
     handleActionClick(text) {
         switch (text) {
             case 'Tarhálsz':
-                this.updateCigi(1);
+                this.action = 'tarha'
                 break;
             case 'Menekülsz':
-                this.updateCigi(-1);
+                this.action = 'menekul'
                 break;
             case 'Együttműködsz':
-                //this.updateCigi(-1);
-                console.log("együtműdksidz");
+                this.action ='egyuttmukod'
                 break;
             default:
                 break;

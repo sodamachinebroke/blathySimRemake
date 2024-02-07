@@ -3,7 +3,6 @@
 const mainMenu = new MainMenu('mainmenu');
 const gamePlay = new GamePlay('gameplay');
 const deathScene = new DeathScene('death');
-const inOut = new InOut('io');
 
 const game = new Phaser.Game({
     width: 1200,
@@ -12,5 +11,5 @@ const game = new Phaser.Game({
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
     type: Phaser.AUTO, // CANVAS, WEBGL, AUTO
-    scene: [inOut, gamePlay, deathScene]
+    scene: [gamePlay, deathScene]
 });
