@@ -4,7 +4,6 @@ class GamePlay extends Phaser.Scene {
 
     constructor(title) {
         super(title);
-
         this.parsedConvos = null;
     }
 
@@ -138,16 +137,17 @@ class GamePlay extends Phaser.Scene {
             .then(parsedData => {
                 outputVar = parsedData;
 
-                this.displayParsedData(this.parsedConvos, {fontFamily: 'DM Mono',
-                fontSize: '20px',
-                color: 'black'})
+                this.displayParsedData(this.parsedConvos, {
+                    fontSize: '20px',
+                    color: 'black'
+                })
             })
             .catch(error => {
                 console.error('Error fetching or parsing JSON: ', error);
             });
     };
 
-    displayParsedData(parsedjson,style) {
+    displayParsedData(parsedjson, style) {
         if (parsedjson) {
             const introTalksContent = this.getIntroTalksContent();
             this.add.text(100, 100, introTalksContent, style);
@@ -161,6 +161,8 @@ class GamePlay extends Phaser.Scene {
         const introTalks = parsedData.dialogues.convo.filter(talk => talk.type === 'intro');
         const introTalksContent = introTalks.map(talk => talk.talk.join('\n')).join('\n\n');
     }
+
+    //Ending of JSON parsing
 
     handleActionClick(text) {
         switch (text) {
