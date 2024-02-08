@@ -2,19 +2,12 @@
     "dialogues": {
         "convo": [
             {
-                "talk": [
-                    "-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura.",
-                    "\"Lám van élet IQ nélkül\" gondolod magadban."
-                ],
+                "talk":"-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura.\n\"Lám van élet IQ nélkül\" gondolod magadban.",
                 "id": "szarka",
                 "type": "intro"
             },
             {
-                "talk": [
-                    "Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:",
-                    "- Tiszteletem Mester!",
-                    "- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!"
-                ],
+                "talk":"Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:\n- Tiszteletem Mester!\n- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!",
                 "statupdt": {
                     "type": "o",
                     "value": "-1",
@@ -24,19 +17,12 @@
                 "type": "egy"
             },
             {
-                "talk": [
-                    "Menekülõre fogod a szitut, és felveszed a nyúlcipõt.",
-                    "- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából."
-                ],
+                "talk":"Menekülõre fogod a szitut, és felveszed a nyúlcipõt.\n- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából.",
                 "id": "szarka",
                 "type": "men"
             },
             {
-                "talk": [
-                    "Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.",
-                    "- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeln után egy string?",
-                    "A kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?"
-                ],
+                "talk":"Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.\n- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeln után egy string?\nA kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?",
                 "statupdt": {
                     "type": "c",
                     "value": "-1",
@@ -46,12 +32,7 @@
                 "type": "men"
             },
             {
-                "talk": [
-                    "A kínos csend közepette egy eszeveszett ötlet támad a fejedben:",
-                    "- Mester, van egy szál cigarettája?",
-                    "- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!",
-                    "Sarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések..."
-                ],
+                "talk":"A kínos csend közepette egy eszeveszett ötlet támad a fejedben:\n- Mester, van egy szál cigarettája?\n- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!\nSarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések...",
                 "statupdt": {
                     "type": "o",
                     "value": "-1",
@@ -61,18 +42,75 @@
                 "type": "tar"
             },
             {
-                "talk": [
-                    "Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.",
-                    "- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos",
-                    "Megszeppenve ámde elfogadod a saját száladat.",
-                    "Mestertõl cigit kapni, ilyen se lesz többet..."
-                ],
+                "talk":"Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.\n- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos\nMegszeppenve ámde elfogadod a saját száladat.\nMestertõl cigit kapni, ilyen se lesz többet...",
                 "statupdt": {
                     "type": "c",
                     "value": "1",
                     "text": "+1 saját cigi"
                 },
                 "id": "szarka",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Már a folyosó végérõl megérzed a bölcsesség és a kedvesség lágy áramlatát.",
+                    "Kíváncsivá tesz, megkeresed a forrását és nem mást találsz ott, mint Fekete Istvánt."
+                ],
+                "id": "fekete",
+                "type": "intro"
+            },
+            {
+                "talk": [
+                    "Ráköszönsz. Egy nem több mint 1.5 órás beszélgetés után elköszön tõled, majd bemegy a tanáriba.",
+                    "A beszélgetés jó érzéssel tölt el."
+                ],
+                "statupdt": {
+                    "type": "o",
+                    "value": "2",
+                    "text": "+2 önbecsülés"
+                },
+                "id": "fekete",
+                "type": "egy"
+            },
+            {
+                "talk": "Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged, s még mielõtt a Japán közmondásokba kezdene, az arra jövõ Rozgova néni el vonja a figyelmét.",
+                "id": "fekete",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Nem köszöntél rá, de mielõtt leérnél a lépcsõn, megszólít Téged.",
+                    "Elmond pár japán közmondást, mire vége lenne csak annyit veszel észre, hogy a doboz cigid és a Jimmy's gyújtód is eltûnt, és már Fekete is felszívódott."
+                ],
+                "statupdt": {
+                    "type": "d",
+                    "text": "No cigi, no party"
+                },
+                "id": "fekete",
+                "type": "men"
+            },
+            {
+                "talk": [
+                    "Megpróbálod letarhálni az osztályfõnököt egy szál cigivel, de helyette ezzel a mondattal kínál meg:",
+                    "- A hídon akkor megyünk át, amikor odaértünk...",
+                    "Hát ez nem igazán cigi, de bölcsebb lettél és ez a fontos...Nem?"
+                ],
+                "id": "fekete",
+                "type": "tar"
+            },
+            {
+                "talk": [
+                    "Belekezdesz az Éden Kert kígyójának szövegét is lekörözõ dumádba, amikor egy srác fordul hozzád:",
+                    "- Hé haver! Ezt elejtetted! - és a kezedbe nyomja kolis perceid gyümölcsét.",
+                    "Miután jól kinevetett az osztályfõnököd elkullogsz, de mintha könnyebb lenne a zsebed...",
+                    "A büdös suttyó kölke elvitt egyet az ukrán dohányosból!"
+                ],
+                "statupdt": {
+                    "type": "c",
+                    "value": "-1",
+                    "text": "-1 cigi"
+                },
+                "id": "fekete",
                 "type": "tar"
             }
         ]

@@ -1,6 +1,7 @@
 /// <reference path="./types/index.d.ts" />
 
 class MainMenu extends Phaser.Scene {
+
     constructor(title) {
         super(title);
     }
@@ -90,6 +91,5 @@ class MainMenu extends Phaser.Scene {
     };
 
     update() {
-
     };
 }

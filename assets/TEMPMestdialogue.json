@@ -1,0 +1,57 @@
+{
+    "dialogues": {
+        "convo": [
+            {
+                "talk":"-Jó napot kívánok Mester! - tiszteleg feléd egy kopaszodó bolond figura.\n\"Lám van élet IQ nélkül\" gondolod magadban.",
+                "id": "szarka",
+                "type": "intro"
+            },
+            {
+                "talk":"Magadat megalázva, de kimentve felcsaptad homlokodhoz jobbod, és visszaszóltál:\n- Tiszteletem Mester!\n- Hoppá! Mester, pluszjegyért jelentkezzen! Na menjen, szívjon el egy szendvicset!",
+                "statupdt": {
+                    "type": "o",
+                    "value": "-1",
+                    "text": "-1 önbecsülés"
+                },
+                "id": "szarka",
+                "type": "egy"
+            },
+            {
+                "talk":"Menekülõre fogod a szitut, és felveszed a nyúlcipõt.\n- Öcsééém... - hallatszik a jó képességû úriember szájnyílásából.",
+                "id": "szarka",
+                "type": "men"
+            },
+            {
+                "talk":"Késõn vetted fel a nyúlcipõt, a felelés beindult, de azt sem érted milyen nyelven beszél.\n- Mester, maximum hány karakterbõl állhat Free Pascal nyelven writeln után egy string?\nA kínos csend közepette zsebedben csücsülõ dobozkádból kicsúszik egy szál bagaretta, a geci se merné mellette felvenni, igaz?",
+                "statupdt": {
+                    "type": "c",
+                    "value": "-1",
+                    "text": "-1 cigaretta"
+                },
+                "id": "szarka",
+                "type": "men"
+            },
+            {
+                "talk":"A kínos csend közepette egy eszeveszett ötlet támad a fejedben:\n- Mester, van egy szál cigarettája?\n- Ejnye Mester! Minusz jegyért jelentkezzen, illegális cigaretta kérés!\nSarkon fordulnál de már érkeznek a c# osztályaival kapcsolatos kérdések...",
+                "statupdt": {
+                    "type": "o",
+                    "value": "-1",
+                    "text": "-1 önbecsülés"
+                },
+                "id": "szarka",
+                "type": "tar"
+            },
+            {
+                "talk":"Még mielõtt megszólalnál Mester feléd nyújt egy szálat a saját készítésûbõl, biztos a tiéd mert ott van rajta a pörköltszaftos ujjlenyomat.\n- Mester, tegye el gyorsan, ne szemetelje össze a folyosómat! - szól a kopaszodó hibrid tulajdonos\nMegszeppenve ámde elfogadod a saját száladat.\nMestertõl cigit kapni, ilyen se lesz többet...",
+                "statupdt": {
+                    "type": "c",
+                    "value": "1",
+                    "text": "+1 saját cigi"
+                },
+                "id": "szarka",
+                "type": "tar"
+            }
+        
+        ]
+    }
+}
