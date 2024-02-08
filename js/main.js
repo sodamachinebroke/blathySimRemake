@@ -11,5 +11,5 @@ const game = new Phaser.Game({
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
     type: Phaser.AUTO, // CANVAS, WEBGL, AUTO
-    scene: [gamePlay, deathScene]
+    scene: [mainMenu, gamePlay, deathScene]
 });
