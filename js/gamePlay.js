@@ -1,5 +1,21 @@
 /// <reference path="./types/index.d.ts" />
 
+const diagStyle = {
+    fontFamily: 'DM Mono',
+    fontSize: '20px',
+    color: 'black',
+    wordWrap: {
+        width: 600,
+        useAdvancedWrap: true
+    }
+}
+
+const statStyle = {
+    fontFamily: 'DM Mono',
+    fontSize: '20px',
+    color: 'white'
+}
+
 class GamePlay extends Phaser.Scene {
 
     constructor(title) {
@@ -29,7 +45,7 @@ class GamePlay extends Phaser.Scene {
     preload() {
         this.load.image("background", "assets/Pictures/bg_concrete.jpg");
 
-        this.load.json('tempdialogue', 'assets/TEMPdialogue.json');
+        this.load.json('tempdialogue', 'assets/TEMPMestdialogue.json');
 
     };
 
@@ -43,20 +59,7 @@ class GamePlay extends Phaser.Scene {
                 families: ['DM Mono']
             },
             active: () => {
-                var statStyle = {
-                    fontFamily: 'DM Mono',
-                    fontSize: '20px',
-                    color: 'white'
-                }
-                var diagStyle = {
-                    fontFamily: 'DM Mono',
-                    fontSize: '20px',
-                    color: 'black',
-                    wordWrap: {
-                        width: 600,
-                        useAdvancedWrap: true
-                    }
-                }
+                
                 this.cigiText = this.add.text(0, 0, `Cigi: ${this.stats.cigi}`, statStyle);
                 this.cigiText.setOrigin(0, 0);
 
@@ -72,7 +75,7 @@ class GamePlay extends Phaser.Scene {
                 this.statContainer.add(this.onbText);
 
                 this.buttonContainer = this.add.container(this.game.config.width / 4, this.game.config.height - 100);
-                this.writeRandomDialogueWithFixedType(this.action, diagStyle);
+
 
                 // Container for the interactable buttons
                 const buttonTexts = ['Tarhálsz', 'Menekülsz', 'Együttműködsz'];
@@ -128,35 +131,39 @@ class GamePlay extends Phaser.Scene {
                     this.buttonContainer.add(button);
                 });
 
-                
+                this.writeRandomDialogueWithFixedType('intro', diagStyle, this.currentPartner);
             }
         })
     };
 
-    writeRandomDialogueWithFixedType(type, style) {
-        const dialoguesWithType = this.database.dialogues.convo.filter(dialogue => dialogue.type === type);
+    writeRandomDialogueWithFixedType(type, style, id = null) {
+        let dialoguesWithType = this.database.dialogues.convo.filter(dialogue => dialogue.type === type);
 
-        if (dialoguesWithType.length === 0){
+        if (id !== null) {
+            dialoguesWithType = dialoguesWithType.filter(dialogue => dialogue.id === id);
+        }
+        if (dialoguesWithType.length === 0) {
             console.error("Some issue idk");
             return;
         }
-        const randomIndex = Phaser.Math.Between(0, dialoguesWithType.length-1);
+        const randomIndex = Phaser.Math.Between(0, dialoguesWithType.length - 1);
         const dialogue = dialoguesWithType[randomIndex];
-
-        if(dialogue){
+        if (typeof id === 'undefined') {
+            id = null;
+        }
+        if (dialogue) {
             this.createDialogueContainer();
             this.displayDialogue(dialogue.talk, style);
             this.currentPartner = dialogue.id;
-            console.log(this.currentPartner);
-        }else{
+        } else {
             console.error("Dialogue not found");
         }
     }
 
-
     createDialogueContainer() {
         this.dialogueContainer = this.add.container(50, 200);
     }
+
     displayDialogue(text, style) {
         if (this.dialogueText) {
             this.dialogueText.destroy();
@@ -169,32 +176,39 @@ class GamePlay extends Phaser.Scene {
 
     findDialogue(id, type) {
         const convo = this.database.dialogues.convo;
+        randhelper = Phaser.Math.Between(0,1);
         for (let i = 0; i < convo.length; i++) {
             if (convo[i].id === id && convo[i].type === type) {
-                return convo[i];
+                return convo[i+randhelper];
             }
         }
         return null;
     }
 
     update() {
-
     };
 
     handleActionClick(text) {
-        switch (text) {
-            case 'Tarhálsz':
-                this.action = 'tarha'
-                break;
-            case 'Menekülsz':
-                this.action = 'menekul'
-                break;
-            case 'Együttműködsz':
-                this.action ='egyuttmukod'
-                break;
-            default:
-                break;
-        }
+        WebFont.load({
+            google: {
+                families: ['DM Mono']
+            },
+            active: () => {
+                switch (text) {
+                    case 'Tarhálsz':
+                        this.writeRandomDialogueWithFixedType('tar', diagStyle, this.currentPartner);
+                        break;
+                    case 'Menekülsz':
+                        this.writeRandomDialogueWithFixedType('men', diagStyle, this.currentPartner);
+                        break;
+                    case 'Együttműködsz':
+                        this.writeRandomDialogueWithFixedType('egy', diagStyle, this.currentPartner);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
     };
 
     //This might will be final someday
