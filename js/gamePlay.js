@@ -19,6 +19,7 @@ class GamePlay extends Phaser.Scene {
             onb: 10
         }
 
+        //Death scene disable inputs variable, gets turned to false when cigi or onb is 0
         this.buttonsEnabled = true;
     };
 
@@ -27,6 +28,7 @@ class GamePlay extends Phaser.Scene {
     };
 
     create() {
+        this.cameras.main.fadeIn(500);
         this.bg = this.add.image(0, 0, "background");
         this.bg.setOrigin(0, 0);
         WebFont.load({
