@@ -1,17 +1,18 @@
 /// <reference path="./types/index.d.ts" />
 
 const diagStyle = {
-    fontFamily: 'DM Mono',
-    fontSize: '20px',
+    fontFamily: 'Ubuntu Mono',
+    fontSize: '30px',
     color: 'black',
+    strokeThickness: 10,
     wordWrap: {
-        width: 600,
+        width: 1100,
         useAdvancedWrap: true
     }
 }
 
 const statStyle = {
-    fontFamily: 'DM Mono',
+    fontFamily: 'Ubuntu Mono',
     fontSize: '20px',
     color: 'white'
 }
@@ -56,9 +57,11 @@ class GamePlay extends Phaser.Scene {
         WebFont.load({
             //Need this, because we are using Google Fonts. This makes everything easier
             google: {
-                families: ['DM Mono']
+                families: ['Ubuntu Mono']
             },
             active: () => {
+                this.introContainer = this.add.container(50,100);
+                this.writeRandomDialogueWithFixedType('intro', diagStyle, null, this.introContainer);
                 
                 this.cigiText = this.add.text(0, 0, `Cigi: ${this.stats.cigi}`, statStyle);
                 this.cigiText.setOrigin(0, 0);
@@ -131,12 +134,12 @@ class GamePlay extends Phaser.Scene {
                     this.buttonContainer.add(button);
                 });
 
-                this.writeRandomDialogueWithFixedType('intro', diagStyle, this.currentPartner);
+
             }
         })
     };
 
-    writeRandomDialogueWithFixedType(type, style, id = null) {
+    writeRandomDialogueWithFixedType(type, style, id = null, container) {
         let dialoguesWithType = this.database.dialogues.convo.filter(dialogue => dialogue.type === type);
 
         if (id !== null) {
@@ -153,7 +156,7 @@ class GamePlay extends Phaser.Scene {
         }
         if (dialogue) {
             this.createDialogueContainer();
-            this.displayDialogue(dialogue.talk, style);
+            this.displayDialogue(dialogue.talk, style, container, type);
             this.currentPartner = dialogue.id;
         } else {
             console.error("Dialogue not found");
@@ -164,14 +167,22 @@ class GamePlay extends Phaser.Scene {
         this.dialogueContainer = this.add.container(50, 200);
     }
 
-    displayDialogue(text, style) {
-        if (this.dialogueText) {
+    displayDialogue(text, style, container, type) {
+        if (this.dialogueText && type === 'intro') {
             this.dialogueText.destroy();
         }
 
         // Create a new text object to display the dialogue
-        this.dialogueText = this.add.text(0, 0, text, style);
-        this.dialogueContainer.add(this.dialogueText);
+        this.dialogueText = this.add.text(0, this.game.config.height, text, style);
+        this.dialogueText.setAlpha(0);
+        container.add(this.dialogueText);
+        const moveInTween = this.tweens.add({
+            targets: this.dialogueText,
+            y: container.height,
+            alpha: 1,
+            duration: 2000,
+            ease: Phaser.Math.Easing.Circular.Out
+        });
     }
 
     findDialogue(id, type) {
@@ -186,9 +197,12 @@ class GamePlay extends Phaser.Scene {
     }
 
     update() {
+
     };
 
     handleActionClick(text) {
+
+        this.textContainer = this.add.container(50,250);
         WebFont.load({
             google: {
                 families: ['DM Mono']
@@ -196,13 +210,16 @@ class GamePlay extends Phaser.Scene {
             active: () => {
                 switch (text) {
                     case 'Tarhálsz':
-                        this.writeRandomDialogueWithFixedType('tar', diagStyle, this.currentPartner);
+                        this.writeRandomDialogueWithFixedType('tar', diagStyle, this.currentPartner, this.textContainer);
+                        this.buttonsEnabled = false;
                         break;
                     case 'Menekülsz':
-                        this.writeRandomDialogueWithFixedType('men', diagStyle, this.currentPartner);
+                        this.writeRandomDialogueWithFixedType('men', diagStyle, this.currentPartner, this.textContainer);
+                        this.buttonsEnabled = false;
                         break;
                     case 'Együttműködsz':
-                        this.writeRandomDialogueWithFixedType('egy', diagStyle, this.currentPartner);
+                        this.writeRandomDialogueWithFixedType('egy', diagStyle, this.currentPartner, this.textContainer);
+                        this.buttonsEnabled = false;
                         break;
                     default:
                         break;
