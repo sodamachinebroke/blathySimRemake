@@ -15,3 +15,10 @@ If you run out of cigarettes, you die. If you make a bad choice with teachers, y
 
 ### Current achievements
 So far, it has a functioning Main Menu, Death screen, HUD and the program can identify the type of interaction with a partner.
+
+### Current Goals and Roadmap
+First and foremost a Win screen needs to be implemented.
+Make the game playable. Implement the basic gameplay loop of interacting with people. Certain interactions need to change the stats.
+Make it look good, pleasing to the eye. Or not, but that will be on purpose.
+Need the difficulty options the original had and need the character options.
+Lastly achievements.
