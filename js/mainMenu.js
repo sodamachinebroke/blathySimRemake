@@ -27,9 +27,10 @@ class MainMenu extends Phaser.Scene {
                 var titleStyle = {
                     fontFamily: 'Honk',
                     fontSize: '100px',
+                    align: 'center'
                 }
 
-                this.titleText = this.add.text(this.game.config.width / 2, this.game.config.height - 750, `BláthySimRemake`, titleStyle);
+                this.titleText = this.add.text(this.game.config.width / 2, this.game.config.height - 750, `Bláthy Sim:\nRelive The Horrors`, titleStyle);
                 this.titleText.setOrigin(0.5);
 
                 this.buttonContainer = this.add.container(this.game.config.width / 2, this.game.config.height - 200);
