@@ -6,15 +6,15 @@ class MainMenu extends Phaser.Scene {
         super(title);
     }
 
-    init(){
+    init() {
         this.buttonsEnabled = true;
     }
 
-    preload(){
-        this.load.image("mainmenu","../assets/Pictures/blathy.png");
+    preload() {
+        this.load.image("mainmenu", "../assets/Pictures/blathy.png");
     };
 
-    create(){
+    create() {
         this.bg = this.add.image(0, 0, "mainmenu");
         this.bg.setOrigin(0, 0);
 
@@ -48,9 +48,9 @@ class MainMenu extends Phaser.Scene {
                             strokeThickness: 10
                         }
                     )
-                    .setInteractive({ useHandCursor: true })
-                    .setOrigin(0.5)
-                    .setPadding(20);
+                        .setInteractive({ useHandCursor: true })
+                        .setOrigin(0.5)
+                        .setPadding(20);
 
                     //Tween for button hovered over
                     const selectButtonTween = this.tweens.add({
@@ -74,15 +74,15 @@ class MainMenu extends Phaser.Scene {
                             this.buttonsEnabled = false;
                             this.cameras.main.fadeOut(1000);
                             this.cameras.main.on(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, () => {
-                            this.scene.start("gameplay"); 
+                                this.scene.start("gameplay");
                             });
-                        } 
+                        }
                     });
                     button.on("pointerover", () => {
-                        selectButtonTween.play();   
+                        selectButtonTween.play();
                     });
                     button.on("pointerout", () => {
-                        unselectButtonTween.play();   
+                        unselectButtonTween.play();
                     });
 
                     this.buttonContainer.add(button);
